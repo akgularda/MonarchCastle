@@ -1,0 +1,126 @@
+{
+  "fetched_at": "2026-01-14T23:54:54.394912",
+  "source": "NATO Secretary General Annual Report 2023",
+  "target_pct": 2.0,
+  "year": 2023,
+  "countries": [
+    {
+      "name": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "spending_bn": 31.6,
+      "pct_gdp": 3.9,
+      "meets_target": true
+    },
+    {
+      "name": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "spending_bn": 886.0,
+      "pct_gdp": 3.49,
+      "meets_target": true
+    },
+    {
+      "name": "Greece",
+      "flag": "\ud83c\uddec\ud83c\uddf7",
+      "spending_bn": 9.4,
+      "pct_gdp": 3.01,
+      "meets_target": true
+    },
+    {
+      "name": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "spending_bn": 1.1,
+      "pct_gdp": 2.73,
+      "meets_target": true
+    },
+    {
+      "name": "Lithuania",
+      "flag": "\ud83c\uddf1\ud83c\uddf9",
+      "spending_bn": 1.8,
+      "pct_gdp": 2.54,
+      "meets_target": true
+    },
+    {
+      "name": "Romania",
+      "flag": "\ud83c\uddf7\ud83c\uddf4",
+      "spending_bn": 7.9,
+      "pct_gdp": 2.44,
+      "meets_target": true
+    },
+    {
+      "name": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "spending_bn": 4.4,
+      "pct_gdp": 2.43,
+      "meets_target": true
+    },
+    {
+      "name": "Latvia",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
+      "spending_bn": 1.0,
+      "pct_gdp": 2.27,
+      "meets_target": true
+    },
+    {
+      "name": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "spending_bn": 68.5,
+      "pct_gdp": 2.07,
+      "meets_target": true
+    },
+    {
+      "name": "Slovakia",
+      "flag": "\ud83c\uddf8\ud83c\uddf0",
+      "spending_bn": 2.3,
+      "pct_gdp": 2.03,
+      "meets_target": true
+    },
+    {
+      "name": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "spending_bn": 53.6,
+      "pct_gdp": 1.9,
+      "meets_target": false
+    },
+    {
+      "name": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "spending_bn": 68.0,
+      "pct_gdp": 1.57,
+      "meets_target": false
+    },
+    {
+      "name": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "spending_bn": 32.0,
+      "pct_gdp": 1.46,
+      "meets_target": false
+    },
+    {
+      "name": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "spending_bn": 26.9,
+      "pct_gdp": 1.38,
+      "meets_target": false
+    },
+    {
+      "name": "T\u00fcrkiye",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "spending_bn": 21.5,
+      "pct_gdp": 1.31,
+      "meets_target": false
+    },
+    {
+      "name": "Spain",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "spending_bn": 17.0,
+      "pct_gdp": 1.26,
+      "meets_target": false
+    }
+  ],
+  "summary": {
+    "total_spending_bn": 1341.0,
+    "countries_meeting_target": 11,
+    "countries_below_target": 20,
+    "avg_pct_gdp": 2.03
+  }
+}

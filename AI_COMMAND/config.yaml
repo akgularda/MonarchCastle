@@ -1,0 +1,84 @@
+# Monarch Castle AI Command - Configuration
+# ==========================================
+# Central YAML configuration for all AI systems
+
+version: "1.0"
+environment: "development"
+
+# Director Configuration
+director:
+  name: "Monarch Castle AI Director"
+  version: "1.0.0"
+  log_level: "INFO"
+  test_mode: false
+
+# Module Registry
+modules:
+  inflation:
+    name: "Inflation Intelligence Agency"
+    code: "MCFI"
+    enabled: true
+    priority: 1
+    
+  pentagon:
+    name: "Pentagon Pizza Tracker"
+    code: "MCEI"
+    enabled: true
+    priority: 2
+    
+  bnti:
+    name: "Border Threat Index"
+    code: "MCDI"
+    enabled: false
+    priority: 3
+    
+  sahel:
+    name: "Sahel Region Watch"
+    code: "SRTI"
+    enabled: false
+    priority: 4
+
+# Scheduling
+schedules:
+  inflation:
+    type: "interval"
+    interval_hours: 6
+    
+  pentagon:
+    type: "window"
+    start_hour: 18
+    end_hour: 6
+    interval_minutes: 60
+    timezone: "EST"
+    
+  daily_briefing:
+    type: "daily"
+    hour: 8
+    minute: 0
+    timezone: "TRT"
+
+# Alert Thresholds
+thresholds:
+  inflation:
+    warning: 5.0    # % change
+    critical: 10.0
+    single_spike: 20.0
+    
+  pentagon:
+    elevated: 1     # busy stores
+    defcon: 2
+    
+  freshness:
+    warning_hours: 12
+    critical_hours: 24
+    
+# Reporting
+reporting:
+  format: "markdown"
+  output_dir: "HQ/Reports"
+  retention_days: 90
+
+# API Keys (use environment variables in production)
+api_keys:
+  google_places: "${GOOGLE_PLACES_API_KEY}"
+  acled: "${ACLED_API_KEY}"

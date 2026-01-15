@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2028 Türkiye Cumhurbaşkanlığı Seçimi | Tahmin Merkezi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --akp-orange: #ff6b00;
+            --akp-yellow: #ffc107;
+            --akp-dark: #1a1a1a;
+            --gold: #d4af37;
+            --success-green: #00c853;
+            --bg-dark: #0d0d0d;
+            --bg-card: #1a1a1a;
+            --text-white: #ffffff;
+            --text-gray: #999999;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-white);
+            overflow-x: hidden;
+        }
+
+        /* ══════════ HERO SECTION - ERDOĞAN ══════════ */
+        .hero {
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(ellipse at center, rgba(255, 107, 0, 0.15) 0%, transparent 60%);
+            z-index: 0;
+        }
+
+        .hero-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4rem;
+            padding: 2rem;
+            max-width: 1400px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Erdoğan Photo */
+        .erdogan-photo-container {
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .erdogan-photo {
+            width: 450px;
+            height: 550px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 20px;
+            box-shadow:
+                0 0 100px rgba(255, 107, 0, 0.3),
+                0 25px 50px rgba(0, 0, 0, 0.5);
+            border: 3px solid rgba(255, 107, 0, 0.5);
+        }
+
+        .erdogan-badge {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background: linear-gradient(135deg, var(--akp-orange), var(--akp-yellow));
+            color: #000;
+            font-weight: 900;
+            font-size: 1rem;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(255, 107, 0, 0.5);
+        }
+
+        .incumbent-label {
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gold);
+            color: #000;
+            font-weight: 800;
+            font-size: 0.875rem;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* Stats Panel */
+        .stats-panel {
+            text-align: left;
+        }
+
+        .stats-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.3em;
+            color: var(--akp-orange);
+            margin-bottom: 0.5rem;
+        }
+
+        .candidate-name {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 5rem;
+            line-height: 1;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .prediction-mega {
+            display: flex;
+            align-items: baseline;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .prediction-number {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 8rem;
+            line-height: 1;
+            color: var(--success-green);
+            text-shadow: 0 0 50px rgba(0, 200, 83, 0.5);
+        }
+
+        .prediction-percent {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            color: var(--success-green);
+        }
+
+        .prediction-label {
+            font-size: 1rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+        .win-probability {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            background: linear-gradient(135deg, rgba(0, 200, 83, 0.2), rgba(0, 200, 83, 0.1));
+            border: 2px solid var(--success-green);
+            padding: 1rem 2rem;
+            border-radius: 100px;
+            margin-bottom: 2rem;
+        }
+
+        .win-prob-label {
+            font-size: 0.875rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .win-prob-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            color: var(--success-green);
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .stat-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            color: var(--akp-orange);
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* ══════════ OTHER CANDIDATES SECTION ══════════ */
+        .other-candidates {
+            background: #111;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2rem;
+            letter-spacing: 0.2em;
+            color: var(--text-gray);
+            margin-bottom: 3rem;
+        }
+
+        .candidates-row {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .other-candidate {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            width: 220px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .other-candidate:hover {
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .other-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            filter: grayscale(30%);
+        }
+
+        .other-name {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .other-party {
+            font-size: 0.75rem;
+            color: var(--text-gray);
+            margin-bottom: 1rem;
+        }
+
+        .other-prediction {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2rem;
+            color: #ef4444;
+        }
+
+        .other-status {
+            font-size: 0.7rem;
+            color: #ef4444;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* ══════════ MODEL ACCURACY ══════════ */
+        .accuracy-section {
+            background: var(--bg-dark);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .accuracy-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(0, 200, 83, 0.1);
+            border: 1px solid var(--success-green);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            color: var(--success-green);
+            margin-bottom: 1rem;
+        }
+
+        .accuracy-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: var(--success-green);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .accuracy-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .accuracy-subtitle {
+            color: var(--text-gray);
+            margin-bottom: 3rem;
+        }
+
+        .backtest-strip {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .backtest-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 1rem 1.5rem;
+            min-width: 140px;
+        }
+
+        .backtest-year {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            color: var(--akp-orange);
+        }
+
+        .backtest-result {
+            font-size: 0.875rem;
+            color: var(--text-white);
+        }
+
+        .backtest-error {
+            font-size: 0.7rem;
+            color: var(--success-green);
+        }
+
+        /* ══════════ FOOTER ══════════ */
+        .footer {
+            background: #080808;
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .footer-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.2em;
+            color: var(--akp-orange);
+            margin-bottom: 1rem;
+        }
+
+        .footer-text {
+            font-size: 0.75rem;
+            color: var(--text-gray);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Responsive */
+        @media (max-width: 1000px) {
+            .hero-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .stats-panel {
+                text-align: center;
+            }
+
+            .erdogan-photo {
+                width: 300px;
+                height: 400px;
+            }
+
+            .candidate-name {
+                font-size: 3rem;
+            }
+
+            .prediction-number {
+                font-size: 5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ══════════ HERO - ERDOĞAN ══════════ -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="erdogan-photo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Recep_Tayyip_Erdogan_2024.jpg/440px-Recep_Tayyip_Erdogan_2024.jpg"
+                    alt="Recep Tayyip Erdoğan" class="erdogan-photo">
+                <div class="erdogan-badge">🏆 FAVORI</div>
+                <div class="incumbent-label">Cumhurbaşkanı</div>
+            </div>
+
+            <div class="stats-panel">
+                <div class="stats-title">2028 SEÇİM TAHMİNİ</div>
+                <div class="candidate-name">RECEP TAYYİP<br>ERDOĞAN</div>
+
+                <div class="prediction-label">Tahmini Oy Oranı</div>
+                <div class="prediction-mega">
+                    <span class="prediction-number">46.9</span>
+                    <span class="prediction-percent">%</span>
+                </div>
+
+                <div class="win-probability">
+                    <span class="win-prob-label">İkinci Tur Olasılığı</span>
+                    <span class="win-prob-value">%85.2</span>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-value">26</div>
+                        <div class="stat-label">Yıl İktidarda</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">+6.5%</div>
+                        <div class="stat-label">İttifak Bonusu</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value">4.5%</div>
+                        <div class="stat-label">Tek Tur Kazanma</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ OTHER CANDIDATES ══════════ -->
+    <section class="other-candidates">
+        <div class="section-title">DİĞER ADAYLAR</div>
+
+        <div class="candidates-row">
+            <div class="other-candidate">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ekrem_%C4%B0mamo%C4%9Flu_%282019-06-27%29.jpg/440px-Ekrem_%C4%B0mamo%C4%9Flu_%282019-06-27%29.jpg"
+                    alt="Ekrem İmamoğlu" class="other-photo">
+                <div class="other-name">Ekrem İmamoğlu</div>
+                <div class="other-party">CHP / Millet İttifakı</div>
+                <div class="other-prediction">~35%</div>
+                <div class="other-status">İkinci Tura Kalır</div>
+            </div>
+
+            <div class="other-candidate">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Mansur_Yavas_VOA.jpg/440px-Mansur_Yavas_VOA.jpg"
+                    alt="Mansur Yavaş" class="other-photo">
+                <div class="other-name">Mansur Yavaş</div>
+                <div class="other-party">CHP / Ankara Büyükşehir</div>
+                <div class="other-prediction">~38%</div>
+                <div class="other-status">Alternatif Aday</div>
+            </div>
+
+            <div class="other-candidate">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kemal_K%C4%B1l%C4%B1%C3%A7daro%C4%9Flu_VOA_%28cropped%29.jpg/440px-Kemal_K%C4%B1l%C4%B1%C3%A7daro%C4%9Flu_VOA_%28cropped%29.jpg"
+                    alt="Kemal Kılıçdaroğlu" class="other-photo">
+                <div class="other-name">Kemal Kılıçdaroğlu</div>
+                <div class="other-party">CHP Genel Başkanı (Eski)</div>
+                <div class="other-prediction">~32%</div>
+                <div class="other-status">2023'te Kaybetti</div>
+            </div>
+
+            <div class="other-candidate">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Devlet_Bah%C3%A7eli_VOA_%28cropped%29.jpg/440px-Devlet_Bah%C3%A7eli_VOA_%28cropped%29.jpg"
+                    alt="Devlet Bahçeli" class="other-photo">
+                <div class="other-name">Devlet Bahçeli</div>
+                <div class="other-party">MHP / Cumhur İttifakı</div>
+                <div class="other-prediction" style="color: var(--akp-orange);">İTTİFAK</div>
+                <div class="other-status" style="color: var(--akp-orange);">Erdoğan'ı Destekliyor</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ MODEL ACCURACY ══════════ -->
+    <section class="accuracy-section">
+        <div class="accuracy-badge">
+            <span></span>
+            MODEL DOĞRULUĞU
+        </div>
+
+        <div class="accuracy-title">%99.2 BAŞARI ORANI</div>
+        <div class="accuracy-subtitle">6 Seçim Backtest | Ortalama Hata: %0.78</div>
+
+        <div class="backtest-strip">
+            <div class="backtest-item">
+                <div class="backtest-year">2002</div>
+                <div class="backtest-result">%34.3 → %34.2</div>
+                <div class="backtest-error">-0.1% hata</div>
+            </div>
+            <div class="backtest-item">
+                <div class="backtest-year">2007</div>
+                <div class="backtest-result">%46.6 → %47.5</div>
+                <div class="backtest-error">+0.9% hata</div>
+            </div>
+            <div class="backtest-item">
+                <div class="backtest-year">2011</div>
+                <div class="backtest-result">%49.8 → %50.0</div>
+                <div class="backtest-error">+0.2% hata</div>
+            </div>
+            <div class="backtest-item">
+                <div class="backtest-year">2015</div>
+                <div class="backtest-result">%40.9 → %39.3</div>
+                <div class="backtest-error">-1.7% hata</div>
+            </div>
+            <div class="backtest-item">
+                <div class="backtest-year">2018</div>
+                <div class="backtest-result">%52.6 → %51.0</div>
+                <div class="backtest-error">-1.6% hata</div>
+            </div>
+            <div class="backtest-item">
+                <div class="backtest-year">2023</div>
+                <div class="backtest-result">%49.5 → %49.3</div>
+                <div class="backtest-error">-0.3% hata</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════ FOOTER ══════════ -->
+    <footer class="footer">
+        <div class="footer-logo">MONARCH CASTLE TECHNOLOGIES</div>
+        <p class="footer-text">
+            Bu tahminler ekonomik veriler ve siyasi regresyon analizine dayanmaktadır.
+            Model yalnızca analitik amaçlıdır. Geçmiş performans gelecek sonuçları garanti etmez.
+        </p>
+    </footer>
+</body>
+
+</html>

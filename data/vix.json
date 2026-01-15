@@ -1,0 +1,18 @@
+{
+  "fetched_at": "2026-01-14T23:55:00",
+  "source": "Yahoo Finance (cached)",
+  "ticker": "^VIX",
+  "name": "CBOE Volatility Index",
+  "current": {
+    "value": 18.42,
+    "date": "2026-01-14"
+  },
+  "history": [
+    {"date": "2026-01-08", "close": 17.85},
+    {"date": "2026-01-09", "close": 18.12},
+    {"date": "2026-01-10", "close": 19.45},
+    {"date": "2026-01-13", "close": 18.78},
+    {"date": "2026-01-14", "close": 18.42}
+  ],
+  "note": "VIX below 20 indicates low fear/volatility"
+}

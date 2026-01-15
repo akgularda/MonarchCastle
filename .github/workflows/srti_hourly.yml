@@ -1,0 +1,62 @@
+name: Update SRTI
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-srti:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r "Sahel Region Threat Index (SRTI)/requirements.txt"
+
+      - name: Run SRTI pipeline
+        run: |
+          python "Sahel Region Threat Index (SRTI)/sahel_watch.py"
+          python "Sahel Region Threat Index (SRTI)/coup_detector.py"
+          python -c "import generate_pages as gp; gp.generate_srti_page()"
+
+      - name: Commit updates
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "monarchcastle-bot"
+            git config user.email "bot@monarchcastle.ai"
+            git add "data/srti_latest.json" "data/srti_history.json" "data/srti_coup_alert.json" "Sahel Region Threat Index (SRTI)/sahel_data.csv" "Sahel Region Threat Index (SRTI)/index.html" "index.html"
+            git commit -m "Update SRTI data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

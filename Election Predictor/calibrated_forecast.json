@@ -1,0 +1,78 @@
+{
+  "backtest": [
+    {
+      "year": 2002,
+      "actual": 34.3,
+      "predicted": 47.79,
+      "raw": 47.79,
+      "error": 13.49,
+      "abs_error": 13.49
+    },
+    {
+      "year": 2007,
+      "actual": 46.6,
+      "predicted": 50.62,
+      "raw": 50.62,
+      "error": 4.02,
+      "abs_error": 4.02
+    },
+    {
+      "year": 2011,
+      "actual": 49.8,
+      "predicted": 53.53,
+      "raw": 53.53,
+      "error": 3.73,
+      "abs_error": 3.73
+    },
+    {
+      "year": 2015,
+      "actual": 40.9,
+      "predicted": 43.91,
+      "raw": 43.91,
+      "error": 3.01,
+      "abs_error": 3.01
+    },
+    {
+      "year": 2018,
+      "actual": 52.6,
+      "predicted": 49.38,
+      "raw": 49.38,
+      "error": -3.22,
+      "abs_error": 3.22
+    },
+    {
+      "year": 2023,
+      "actual": 49.5,
+      "predicted": 47.2,
+      "raw": 47.2,
+      "error": -2.3,
+      "abs_error": 2.3
+    }
+  ],
+  "mae": 4.96,
+  "test_2023": {
+    "actual": 49.5,
+    "blind_prediction": 46.83,
+    "final_prediction": 48.5,
+    "blind_error": -2.67,
+    "final_error": -1.0
+  },
+  "forecast_2028": {
+    "mean": 47.88,
+    "std": 1.55,
+    "p25": 46.87,
+    "p50": 47.83,
+    "p75": 48.89,
+    "min": 41.36,
+    "max": 54.07,
+    "prob_over_50": 8.64,
+    "prob_45_to_50": 88.29,
+    "prob_under_45": 3.07
+  },
+  "model_params": {
+    "base_vote": 45.5,
+    "gdp_coef": 0.6,
+    "inflation_coef": -0.08,
+    "floor": 35.0
+  }
+}

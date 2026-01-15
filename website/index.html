@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monarch Castle Technologies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --gray-50: #fafafa;
+            --gray-100: #f5f5f5;
+            --gray-200: #e5e5e5;
+            --gray-300: #d4d4d4;
+            --gray-400: #a3a3a3;
+            --gray-500: #737373;
+            --gray-600: #525252;
+            --gray-700: #404040;
+            --gray-800: #262626;
+            --gray-900: #171717;
+            --accent: #10b981;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            font-size: 16px;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: -0.02em;
+        }
+
+        .logo img {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        nav a {
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--gray-400);
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--white);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--black);
+        }
+
+        .btn-primary:hover {
+            background: var(--gray-200);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: var(--white);
+            border: 1px solid var(--gray-700);
+        }
+
+        .btn-ghost:hover {
+            background: var(--gray-800);
+            border-color: var(--gray-600);
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(120, 119, 198, 0.15), transparent);
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 720px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 14px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+            margin-bottom: 32px;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.4;
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 6vw, 72px);
+            font-weight: 600;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            margin-bottom: 24px;
+            color: var(--white);
+        }
+
+        .hero p {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--gray-400);
+            line-height: 1.7;
+            margin-bottom: 40px;
+            max-width: 540px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+        }
+
+        /* Products */
+        .products {
+            padding: 120px 0;
+            background: var(--gray-900);
+        }
+
+        .section-header {
+            margin-bottom: 64px;
+        }
+
+        .section-label {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 600;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: var(--white);
+            max-width: 600px;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .product-card {
+            background: var(--gray-800);
+            border: 1px solid var(--gray-700);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s;
+        }
+
+        .product-card:hover {
+            background: var(--gray-700);
+            border-color: var(--gray-600);
+            transform: translateY(-4px);
+        }
+
+        .product-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--gray-600), var(--gray-700));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .product-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--white);
+        }
+
+        .product-card p {
+            font-size: 14px;
+            color: var(--gray-400);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .product-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--gray-500);
+        }
+
+        .product-status .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+        }
+
+        .product-status .dot.active {
+            background: var(--accent);
+            box-shadow: 0 0 8px var(--accent);
+        }
+
+        .product-status .dot.standby {
+            background: var(--gray-500);
+        }
+
+        /* Features */
+        .features {
+            padding: 120px 0;
+            background: var(--black);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            margin-top: 64px;
+        }
+
+        .feature {
+            padding: 24px 0;
+            border-top: 1px solid var(--gray-800);
+        }
+
+        .feature-value {
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--white);
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+        }
+
+        .feature-label {
+            font-size: 14px;
+            color: var(--gray-500);
+        }
+
+        /* CTA */
+        .cta {
+            padding: 160px 0;
+            background: linear-gradient(to bottom, var(--black), var(--gray-900));
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 600;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .cta p {
+            font-size: 18px;
+            color: var(--gray-400);
+            margin-bottom: 40px;
+        }
+
+        .cta-form {
+            display: flex;
+            gap: 12px;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+
+        .cta-form input {
+            flex: 1;
+            padding: 14px 18px;
+            background: var(--gray-800);
+            border: 1px solid var(--gray-700);
+            border-radius: 8px;
+            color: var(--white);
+            font-size: 15px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .cta-form input:focus {
+            border-color: var(--gray-500);
+        }
+
+        .cta-form input::placeholder {
+            color: var(--gray-500);
+        }
+
+        .cta-form button {
+            padding: 14px 28px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 48px 0;
+            border-top: 1px solid var(--gray-800);
+        }
+
+        footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .footer-logo img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer-copy {
+            font-size: 13px;
+            color: var(--gray-500);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .footer-links a {
+            font-size: 13px;
+            color: var(--gray-500);
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        /* Status Corner */
+        .status-corner {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid var(--gray-800);
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+            z-index: 50;
+        }
+
+        .status-corner img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .status-text {
+            font-size: 12px;
+            color: var(--gray-400);
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            color: var(--gray-500);
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+
+            .hero-actions {
+                flex-direction: column;
+            }
+
+            .cta-form {
+                flex-direction: column;
+            }
+
+            footer .container {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .footer-left {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="MC">
+                <span>Monarch Castle</span>
+            </a>
+            <nav>
+                <a href="#products">Products</a>
+                <a href="#features">Capabilities</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Systems Online</div>
+                <h1>Intelligence infrastructure for the modern enterprise</h1>
+                <p>AI-powered platform that transforms open-source data into actionable intelligence for finance,
+                    defense, and strategic decision-making.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Request Access</a>
+                    <a href="#products" class="btn btn-ghost">View Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Products</div>
+                <h2 class="section-title">Modular intelligence systems built for critical operations</h2>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">📊</div>
+                    <h3>Financial Intelligence</h3>
+                    <p>Real-time economic monitoring with shadow CPI tracking across major retail networks.</p>
+                    <div class="product-status">
+                        <span class="dot active"></span>
+                        <span>Active</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">🎯</div>
+                    <h3>Activity Intelligence</h3>
+                    <p>Cultural and behavioral signal tracking with automated anomaly detection.</p>
+                    <div class="product-status">
+                        <span class="dot active"></span>
+                        <span>Active</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">🛡️</div>
+                    <h3>Defense Intelligence</h3>
+                    <p>Geopolitical risk assessment and conflict zone monitoring from OSINT sources.</p>
+                    <div class="product-status">
+                        <span class="dot standby"></span>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">⚡</div>
+                    <h3>AI Command Center</h3>
+                    <p>Autonomous orchestration layer with self-managing intelligence cycles.</p>
+                    <div class="product-status">
+                        <span class="dot active"></span>
+                        <span>Online</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">📈</div>
+                    <h3>Commodity Oracle</h3>
+                    <p>Energy price forecasting using Prophet-based time series analysis.</p>
+                    <div class="product-status">
+                        <span class="dot standby"></span>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-icon">🌐</div>
+                    <h3>Alliance Tracker</h3>
+                    <p>Defense expenditure analysis and compliance monitoring across NATO members.</p>
+                    <div class="product-status">
+                        <span class="dot standby"></span>
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Capabilities</div>
+                <h2 class="section-title">Enterprise-grade intelligence infrastructure</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-value">24/7</div>
+                    <div class="feature-label">Automated Monitoring</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-value">8+</div>
+                    <div class="feature-label">Intelligence Modules</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-value">&lt;5s</div>
+                    <div class="feature-label">Alert Latency</div>
+                </div>
+                <div class="feature">
+                    <div class="feature-value">100%</div>
+                    <div class="feature-label">Data Sovereignty</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="contact">
+        <div class="container">
+            <h2>Ready to get started?</h2>
+            <p>Request early access to our intelligence platform.</p>
+            <form class="cta-form"
+                onsubmit="event.preventDefault(); this.innerHTML='<div style=\'color: var(--accent); padding: 14px;\'>✓ Request received. We\'ll be in touch.</div>';">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Request Access</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="MC">
+                    <span>Monarch Castle</span>
+                </div>
+                <span class="footer-copy">© 2026 Monarch Castle Technologies · Istanbul</span>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="status-corner">
+        <img src="logo.png" alt="MC">
+        <div>
+            <div class="status-text">Data makes perfection.</div>
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span>Online</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

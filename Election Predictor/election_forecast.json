@@ -1,0 +1,91 @@
+{
+  "backtest": [
+    {
+      "year": 2002,
+      "actual": 34.3,
+      "raw_economic": 34.369998931884766,
+      "final_prediction": 35.0,
+      "error": 0.7000000000000028,
+      "abs_error": 0.7000000000000028,
+      "floor_rescue": 0.6299999952316284,
+      "security_rally": 0.0
+    },
+    {
+      "year": 2007,
+      "actual": 46.6,
+      "raw_economic": 46.599998474121094,
+      "final_prediction": 48.599998474121094,
+      "error": 2.0,
+      "abs_error": 2.0,
+      "floor_rescue": 0.0,
+      "security_rally": 0.0
+    },
+    {
+      "year": 2011,
+      "actual": 49.8,
+      "raw_economic": 49.790000915527344,
+      "final_prediction": 49.790000915527344,
+      "error": -0.009998321533203125,
+      "abs_error": 0.009998321533203125,
+      "floor_rescue": 0.0,
+      "security_rally": 0.0
+    },
+    {
+      "year": 2015,
+      "actual": 40.9,
+      "raw_economic": 40.91999816894531,
+      "final_prediction": 44.02000045776367,
+      "error": 3.1199989318847656,
+      "abs_error": 3.1199989318847656,
+      "floor_rescue": 0.0,
+      "security_rally": 4.0
+    },
+    {
+      "year": 2018,
+      "actual": 52.6,
+      "raw_economic": 52.560001373291016,
+      "final_prediction": 54.7599983215332,
+      "error": 2.1599998474121094,
+      "abs_error": 2.1599998474121094,
+      "floor_rescue": 0.0,
+      "security_rally": 4.0
+    },
+    {
+      "year": 2023,
+      "actual": 49.5,
+      "raw_economic": 49.5,
+      "final_prediction": 50.20000076293945,
+      "error": 0.7000007629394531,
+      "abs_error": 0.7000007629394531,
+      "floor_rescue": 0.0,
+      "security_rally": 0.0
+    }
+  ],
+  "test_2023": {
+    "actual_r1": 49.5,
+    "actual_r2": 52.2,
+    "prediction_no_earthquake": "51.25",
+    "prediction_with_earthquake": "53.25",
+    "raw_economic": "52.55",
+    "was_runoff": "True",
+    "correctly_predicted_tight_race": "True"
+  },
+  "forecast_2028": {
+    "n_simulations": 10000,
+    "mean": 38.81,
+    "std": 8.63,
+    "p25": 30.2,
+    "p50": 40.99,
+    "p75": 47.75,
+    "min": 24.2,
+    "max": 53.75,
+    "prob_over_50": 0.9,
+    "prob_over_45": 36.8,
+    "prob_under_40": 49.6
+  },
+  "model_info": {
+    "identity_floor": 35.0,
+    "security_rally": 4.0,
+    "fatigue_per_year": 0.3
+  }
+}

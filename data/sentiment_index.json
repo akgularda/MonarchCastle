@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-01-14T23:54:54.396372",
+  "composite_score": 49.4,
+  "classification": "Neutral",
+  "condition": "CLOUDY",
+  "emoji": "\ud83c\udf24\ufe0f",
+  "components": {
+    "stock_fear_greed": 50,
+    "crypto_fear_greed": 48,
+    "vix_inverted": 50
+  },
+  "weights": {
+    "stock": 0.4,
+    "crypto": 0.3,
+    "vix": 0.3
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "scenario": {
+    "year": 2028,
+    "inflation": 18.0,
+    "gdp_growth": 3.5,
+    "usd_try": 65.0,
+    "years_in_power": 26
+  },
+  "point_prediction": {
+    "year": 2028,
+    "raw_economic_prediction": 46.75,
+    "adjustments": {
+      "charisma_bonus": 8.0,
+      "fatigue_penalty": -8.0,
+      "security_rally": 0.0,
+      "populism_boost": 0.0,
+      "identity_floor_rescue": 0
+    },
+    "final_prediction": 46.75,
+    "prediction_outcome": "LOSE/RUNOFF",
+    "confidence_interval": [
+      43.75,
+      49.75
+    ]
+  },
+  "monte_carlo_simulation": {
+    "n_simulations": 10000,
+    "mean_prediction": 47.16,
+    "std_deviation": 1.4,
+    "percentile_25": 46.28,
+    "percentile_50": 46.91,
+    "percentile_75": 48.24,
+    "probability_over_50": 2.7,
+    "probability_over_45": 95.1,
+    "worst_case": 41.96,
+    "best_case": 54.91
+  },
+  "backtest": {
+    "results": [
+      {
+        "year": 2002,
+        "actual": 34.3,
+        "predicted": 46.07,
+        "error": 11.77,
+        "abs_error": 11.77
+      },
+      {
+        "year": 2007,
+        "actual": 46.6,
+        "predicted": 47.35,
+        "error": 0.75,
+        "abs_error": 0.75
+      },
+      {
+        "year": 2011,
+        "actual": 49.8,
+        "predicted": 49.4,
+        "error": -0.4,
+        "abs_error": 0.4
+      },
+      {
+        "year": 2015,
+        "actual": 40.9,
+        "predicted": 58.46,
+        "error": 17.56,
+        "abs_error": 17.56
+      },
+      {
+        "year": 2018,
+        "actual": 52.6,
+        "predicted": 55.1,
+        "error": 2.5,
+        "abs_error": 2.5
+      },
+      {
+        "year": 2023,
+        "actual": 49.5,
+        "predicted": 44.87,
+        "error": -4.63,
+        "abs_error": 4.63
+      }
+    ],
+    "mean_absolute_error": 6.27,
+    "accuracy_assessment": "NEEDS CALIBRATION"
+  }
+}

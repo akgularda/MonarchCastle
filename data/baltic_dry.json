@@ -1,0 +1,36 @@
+{
+    "fetched_at": "2026-01-14T23:55:00",
+    "source": "Yahoo Finance (cached)",
+    "ticker": "BDRY",
+    "name": "Baltic Dry Index (ETF Proxy)",
+    "current": {
+        "price": 8.24,
+        "date": "2026-01-14",
+        "change_3m_pct": -15.2,
+        "trend": "down",
+        "signal": "Economic contraction warning"
+    },
+    "history": [
+        {
+            "date": "2025-10-14",
+            "close": 9.72
+        },
+        {
+            "date": "2025-11-14",
+            "close": 9.15
+        },
+        {
+            "date": "2025-12-14",
+            "close": 8.65
+        },
+        {
+            "date": "2026-01-14",
+            "close": 8.24
+        }
+    ],
+    "analysis": {
+        "interpretation": "BDI decline of 15%+ over 3 months historically correlates with economic slowdown 3-6 months ahead",
+        "leading_indicator": true,
+        "lag_period_months": 3
+    }
+}

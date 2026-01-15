@@ -1,0 +1,171 @@
+{
+  "fetched_at": "2026-01-15T21:18:06.286667+00:00",
+  "window_hours": 72,
+  "score": 34.0,
+  "risk_level": "GUARDED",
+  "components": {
+    "conflict_intensity": 0.0,
+    "coup_risk": 100.0,
+    "civilian_risk": 20.2
+  },
+  "weights": {
+    "conflict_intensity": 0.5,
+    "coup_risk": 0.3,
+    "civilian_risk": 0.2
+  },
+  "items_count": 7,
+  "sources": [
+    {
+      "name": "ReliefWeb - Mali",
+      "url": "https://reliefweb.int/rss?search=country%3AMali",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "name": "ReliefWeb - Niger",
+      "url": "https://reliefweb.int/rss?search=country%3ANiger",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "name": "ReliefWeb - Burkina Faso",
+      "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "name": "MaliWeb",
+      "url": "https://www.maliweb.net/feed",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "name": "LeFaso",
+      "url": "https://lefaso.net/spip.php?page=backend",
+      "status": "ok",
+      "items": 97
+    },
+    {
+      "name": "ActuNiger",
+      "url": "https://www.actuniger.com/feed/",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "name": "BBC Africa",
+      "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+      "status": "ok",
+      "items": 33
+    },
+    {
+      "name": "UN News Africa",
+      "url": "https://news.un.org/feed/subscribe/en/news/region/africa/feed/rss.xml",
+      "status": "ok",
+      "items": 30
+    },
+    {
+      "name": "Crisis Group",
+      "url": "https://www.crisisgroup.org/rss.xml",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "top_headlines": [
+    {
+      "title": "Carte de R\u00e9f\u00e9rence - R\u00e9gion de Bandiagara - Nouveau D\u00e9coupage administratif du Mali (Ao\u00fbt 2025)",
+      "link": "https://reliefweb.int/map/mali/carte-de-reference-region-de-bandiagara-nouveau-decoupage-administratif-du-mali-aout-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.98,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": [
+        "mali"
+      ]
+    },
+    {
+      "title": "Carte de R\u00e9f\u00e9rence - R\u00e9gion de Douentza - Nouveau D\u00e9coupage administratif du Mali (Ao\u00fbt 2025)",
+      "link": "https://reliefweb.int/map/mali/carte-de-reference-region-de-douentza-nouveau-decoupage-administratif-du-mali-aout-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.98,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": [
+        "mali"
+      ]
+    },
+    {
+      "title": "Chirurgie laparoscopique : \u00ab Ce n'est pas une technique futuriste, c'est vraiment l'actualit\u00e9, et tout le monde devrait s'y mettre \u00bb, Pr Gilbert Bonkoungou",
+      "link": "https://lefaso.net/spip.php?article143733",
+      "source": "LeFaso",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.76,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": [
+        "burkina",
+        "burkina faso"
+      ]
+    },
+    {
+      "title": "Comment vivre le repos dans votre couple",
+      "link": "https://lefaso.net/spip.php?article143739",
+      "source": "LeFaso",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.76,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": []
+    },
+    {
+      "title": "Participation du Burkina \u00e0 la CAN Maroc 2025 : La FBF rassure l'opinion nationale qu'elle ne m\u00e9nagera aucun effort pour tirer toutes les le\u00e7ons n\u00e9cessaires",
+      "link": "https://lefaso.net/spip.php?article143700",
+      "source": "LeFaso",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.76,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": [
+        "burkina",
+        "burkina faso"
+      ]
+    },
+    {
+      "title": "Demi-finales de la CAN Maroc 2025 : Analyses et pronostics de journalistes sportifs burkinab\u00e8",
+      "link": "https://lefaso.net/spip.php?article143694",
+      "source": "LeFaso",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.76,
+      "tags": [
+        "coup_risk"
+      ],
+      "regions": [
+        "burkina"
+      ]
+    },
+    {
+      "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
+      "link": "https://lefaso.net/spip.php?article143711",
+      "source": "LeFaso",
+      "published_at": "2026-01-15T21:18:06.286667+00:00",
+      "score": 1.44,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": []
+    }
+  ],
+  "forecast": [],
+  "coup_signal": {
+    "status": "ELEVATED",
+    "capital_focus": null,
+    "count_24h": 6,
+    "window_hours": 24
+  }
+}

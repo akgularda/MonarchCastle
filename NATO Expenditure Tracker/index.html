@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATO-005 | Alliance Expenditure Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { 
+            --bg: #050608;
+            --surface: #10141c;
+            --panel: #141a24;
+            --border: #1f2430;
+            --text: #f5f7fa;
+            --muted: #9aa4b2;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.4);
+            --success: #22c55e;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+        }
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            background: linear-gradient(135deg, #050608 0%, #0b0f18 100%);
+            color: var(--text); 
+            min-height: 100vh; 
+        }
+        .grid-overlay {
+            position: fixed; inset: 0; pointer-events: none; opacity: 0.4;
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+        
+        /* Header */
+        header { 
+            position: sticky; top: 0; z-index: 50; 
+            background: rgba(5,6,8,0.9); backdrop-filter: blur(12px); 
+            border-bottom: 1px solid var(--border); 
+        }
+        header .container { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; }
+        .brand { display: flex; align-items: center; gap: 12px; font-weight: 600; }
+        .brand img { width: 24px; height: 24px; }
+        .badge { 
+            padding: 4px 10px; border-radius: 99px; font-size: 11px; 
+            letter-spacing: 0.1em; text-transform: uppercase; border: 1px solid var(--accent); color: var(--accent);
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        /* Hero */
+        .hero { padding: 60px 0 40px; }
+        .module-id { color: var(--accent); font-family: monospace; font-size: 12px; margin-bottom: 12px; display: block; }
+        h1 { font-size: 48px; letter-spacing: -0.02em; font-weight: 700; background: linear-gradient(to right, #fff, #9aa4b2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 12px; }
+        .subtitle { color: var(--muted); font-size: 18px; max-width: 600px; line-height: 1.6; }
+
+        /* Stats Grid */
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 40px 0; }
+        .stat-card { background: var(--panel); border: 1px solid var(--border); padding: 20px; border-radius: 12px; }
+        .stat-label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; }
+        .stat-value { font-size: 32px; font-weight: 600; font-family: monospace; color: #fff; }
+        .stat-sub { font-size: 12px; color: var(--success); margin-top: 4px; }
+
+        /* Main Content */
+        .layout-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 32px; margin-bottom: 60px; }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; overflow: hidden; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .section-title { font-size: 14px; font-weight: 600; text-transform: uppercase; color: var(--muted); letter-spacing: 0.1em; }
+        
+        /* Table */
+        .table-container { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th { text-align: left; color: var(--muted); font-size: 11px; text-transform: uppercase; padding: 12px; border-bottom: 1px solid var(--border); }
+        td { padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 13px; color: var(--muted); }
+        tr:last-child td { border-bottom: none; }
+        
+        /* Components */
+        .status-pill { padding: 4px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; text-transform: uppercase; }
+        .status-pill.yes { background: rgba(34, 197, 94, 0.1); color: var(--success); border: 1px solid rgba(34, 197, 94, 0.2); }
+        .status-pill.no { background: rgba(239, 68, 68, 0.1); color: var(--danger); border: 1px solid rgba(239, 68, 68, 0.2); }
+        .text-success { color: var(--success); }
+        .text-danger { color: var(--danger); }
+        
+        footer { border-top: 1px solid var(--border); padding: 40px 0; text-align: center; color: var(--muted); font-size: 12px; margin-top: 80px; }
+        
+        @media (max-width: 1024px) { .stats { grid-template-columns: repeat(2, 1fr); } .layout-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="grid-overlay"></div>
+    <header>
+        <div class="container">
+            <div class="brand">
+                <img src="../website/logo.png" alt="Logo">
+                <span>Monarch Castle</span>
+            </div>
+            <div class="badge">Valid: 2023</div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <span class="module-id">NATO-005 // INTELLIGENCE</span>
+            <h1>NATO Expenditure Tracker</h1>
+            <p class="subtitle">Strategic monitoring of North Atlantic Treaty Organization defense spending against the 2% GDP treaty obligation.</p>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <div class="stat-label">Total Spending</div>
+                <div class="stat-value" style="color: #e3b341">$1341B</div>
+                <div class="stat-sub">USD Equivalent</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Compliance Rate</div>
+                <div class="stat-value">11 <span style="font-size: 16px; color: var(--muted);">/ 31</span></div>
+                <div class="stat-sub">Member States</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg Burden</div>
+                <div class="stat-value">2.03%</div>
+                <div class="stat-sub">of GDP</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">US Contribution</div>
+                <div class="stat-value">66%</div>
+                <div class="stat-sub">of Total</div>
+            </div>
+        </section>
+
+        <div class="layout-grid">
+            <!-- Left Column: Visuals -->
+            <div style="display: flex; flex-direction: column; gap: 32px;">
+                <div class="card">
+                    <div class="section-header">
+                        <div class="section-title">Compliance Landscape</div>
+                    </div>
+                    
+    <svg viewBox="0 0 800 400" role="img" aria-label="NATO spending chart">
+        <rect x="0" y="0" width="800" height="400" fill="#141a24" rx="8" />
+        <line x1="440.0" y1="40" x2="440.0" y2="360" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4 4" />
+        <text x="440.0" y="30" text-anchor="middle" fill="#3b82f6" font-size="12" font-weight="600">2% TARGET</text>
+        <rect x="120" y="40.0" width="624.0" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="60.0" width="558.4000000000001" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="80.0" width="481.59999999999997" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="100.0" width="436.8" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="120.0" width="406.4" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="140.0" width="390.4" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="160.0" width="388.8" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="180.0" width="363.2" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="200.0" width="331.2" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="220.0" width="324.79999999999995" height="16.0" fill="#10b981" rx="2" /><rect x="120" y="240.0" width="304.0" height="16.0" fill="#f59e0b" rx="2" /><rect x="120" y="260.0" width="251.20000000000002" height="16.0" fill="#ef4444" rx="2" /><rect x="120" y="280.0" width="233.6" height="16.0" fill="#ef4444" rx="2" /><rect x="120" y="300.0" width="220.79999999999998" height="16.0" fill="#ef4444" rx="2" /><rect x="120" y="320.0" width="209.60000000000002" height="16.0" fill="#ef4444" rx="2" /><rect x="120" y="340.0" width="201.6" height="16.0" fill="#ef4444" rx="2" />
+        <text x="110" y="50.666666666666664" text-anchor="end" fill="#9aa4b2" font-size="11">🇵🇱 Poland</text><text x="110" y="70.66666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇺🇸 United States</text><text x="110" y="90.66666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇬🇷 Greece</text><text x="110" y="110.66666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇪🇪 Estonia</text><text x="110" y="130.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇱🇹 Lithuania</text><text x="110" y="150.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇷🇴 Romania</text><text x="110" y="170.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇭🇺 Hungary</text><text x="110" y="190.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇱🇻 Latvia</text><text x="110" y="210.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇬🇧 United Kingdom</text><text x="110" y="230.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇸🇰 Slovakia</text><text x="110" y="250.66666666666666" text-anchor="end" fill="#9aa4b2" font-size="11">🇫🇷 France</text><text x="110" y="270.6666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇩🇪 Germany</text><text x="110" y="290.6666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇮🇹 Italy</text><text x="110" y="310.6666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇨🇦 Canada</text><text x="110" y="330.6666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇹🇷 Türkiye</text><text x="110" y="350.6666666666667" text-anchor="end" fill="#9aa4b2" font-size="11">🇪🇸 Spain</text>
+        <text x="752.0" y="50.666666666666664" fill="#f5f7fa" font-size="10" font-family="monospace">3.90%</text><text x="686.4000000000001" y="70.66666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">3.49%</text><text x="609.5999999999999" y="90.66666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">3.01%</text><text x="564.8" y="110.66666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">2.73%</text><text x="534.4" y="130.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.54%</text><text x="518.4" y="150.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.44%</text><text x="516.8" y="170.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.43%</text><text x="491.2" y="190.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.27%</text><text x="459.2" y="210.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.07%</text><text x="452.79999999999995" y="230.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">2.03%</text><text x="432.0" y="250.66666666666666" fill="#f5f7fa" font-size="10" font-family="monospace">1.90%</text><text x="379.20000000000005" y="270.6666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">1.57%</text><text x="361.6" y="290.6666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">1.46%</text><text x="348.79999999999995" y="310.6666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">1.38%</text><text x="337.6" y="330.6666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">1.31%</text><text x="329.6" y="350.6666666666667" fill="#f5f7fa" font-size="10" font-family="monospace">1.26%</text>
+    </svg>
+    
+                </div>
+                
+                <div class="card">
+                    <div class="section-header">
+                        <div class="section-title">Strategic Assessment</div>
+                    </div>
+                    <div style="color: var(--muted); line-height: 1.6; font-size: 14px;">
+                        <p style="margin-bottom: 12px;"><strong style="color: #fff;">EXECUTIVE SUMMARY:</strong> The Alliance shows a bifurcated spending pattern. While the Eastern Flank (Poland, Baltics) has rapidly accelerated spending exceeding 2.5% of GDP in response to regional threats, major Western European economies remain below the threshold.</p>
+                        <p>Total capability gaps estimated at $80B+ annually to meet full spectrum dominance requirements. Recommend focused diplomatic pressure on Tier 2 economies to bridge the deficit gap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Data Table -->
+            <div class="card">
+                <div class="section-header">
+                    <div class="section-title">Member Ledger</div>
+                </div>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Member</th>
+                                <th>Spend</th>
+                                <th>% GDP</th>
+                                <th>Delta</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+            <td style="font-weight: 500; color: #fff;">🇺🇸 United States</td>
+            <td style="font-family: monospace; color: #e3b341;">$886.0B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 87.25%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">3.49%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$378.3B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇬🇧 United Kingdom</td>
+            <td style="font-family: monospace; color: #e3b341;">$68.5B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 51.74999999999999%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.07%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$2.3B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇩🇪 Germany</td>
+            <td style="font-family: monospace; color: #e3b341;">$68.0B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 39.25%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.57%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$18.6B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇫🇷 France</td>
+            <td style="font-family: monospace; color: #e3b341;">$53.6B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 47.5%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.90%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$2.8B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇮🇹 Italy</td>
+            <td style="font-family: monospace; color: #e3b341;">$32.0B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 36.5%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.46%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$11.8B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇵🇱 Poland</td>
+            <td style="font-family: monospace; color: #e3b341;">$31.6B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 97.5%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">3.90%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$15.4B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇨🇦 Canada</td>
+            <td style="font-family: monospace; color: #e3b341;">$26.9B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 34.5%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.38%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$12.1B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇹🇷 Türkiye</td>
+            <td style="font-family: monospace; color: #e3b341;">$21.5B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 32.75%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.31%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$11.3B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇪🇸 Spain</td>
+            <td style="font-family: monospace; color: #e3b341;">$17.0B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 31.5%; height: 100%; background: #ef4444;"></div>
+                    </div>
+                    <span style="font-family: monospace;">1.26%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-danger">-$10.0B</td>
+            <td><span class="status-pill no">DEFICIT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇬🇷 Greece</td>
+            <td style="font-family: monospace; color: #e3b341;">$9.4B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 75.25%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">3.01%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$3.2B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇷🇴 Romania</td>
+            <td style="font-family: monospace; color: #e3b341;">$7.9B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 61.0%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.44%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$1.4B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇭🇺 Hungary</td>
+            <td style="font-family: monospace; color: #e3b341;">$4.4B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 60.75000000000001%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.43%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$0.8B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇸🇰 Slovakia</td>
+            <td style="font-family: monospace; color: #e3b341;">$2.3B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 50.74999999999999%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.03%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$0.0B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇱🇹 Lithuania</td>
+            <td style="font-family: monospace; color: #e3b341;">$1.8B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 63.5%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.54%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$0.4B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇪🇪 Estonia</td>
+            <td style="font-family: monospace; color: #e3b341;">$1.1B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 68.25%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.73%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$0.3B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr><tr>
+            <td style="font-weight: 500; color: #fff;">🇱🇻 Latvia</td>
+            <td style="font-family: monospace; color: #e3b341;">$1.0B</td>
+            <td>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <div style="width: 60px; height: 6px; background: #1f2430; border-radius: 3px; overflow: hidden;">
+                        <div style="width: 56.75%; height: 100%; background: #22c55e;"></div>
+                    </div>
+                    <span style="font-family: monospace;">2.27%</span>
+                </div>
+            </td>
+            <td style="font-family: monospace;" class="text-success">+$0.1B</td>
+            <td><span class="status-pill yes">COMPLIANT</span></td>
+        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        NATO-005 · Monarch Castle Technologies · Source: NATO Secretary General Annual Report 2023
+    </footer>
+</body>
+</html>

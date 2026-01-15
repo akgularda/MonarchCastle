@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCFI-001 | Inflation Intelligence Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0a0a0a;
+            --surface: #141414;
+            --border: #262626;
+            --text: #fafafa;
+            --text-secondary: #737373;
+            --accent: #10b981;
+            --warning: #f59e0b;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .breadcrumb a {
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--text);
+        }
+
+        .breadcrumb span {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: blink 2s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        /* Hero */
+        .hero {
+            padding: 80px 0 60px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .module-id {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+            font-family: monospace;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            line-height: 1.7;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 40px 0;
+        }
+
+        .stat {
+            background: var(--surface);
+            padding: 24px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+            font-family: monospace;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Content */
+        .content {
+            padding: 60px 0;
+        }
+
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-title::before {
+            content: '//';
+            color: var(--accent);
+            font-family: monospace;
+        }
+
+        .section p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 14px 16px;
+            text-align: left;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table th {
+            background: var(--surface);
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 11px;
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .data-table td {
+            font-family: monospace;
+            font-size: 13px;
+        }
+
+        /* Terminal */
+        .terminal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            font-family: monospace;
+            font-size: 13px;
+        }
+
+        .terminal-header {
+            padding: 12px 16px;
+            background: var(--bg);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .terminal-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .terminal-dot.red {
+            background: #ef4444;
+        }
+
+        .terminal-dot.yellow {
+            background: #f59e0b;
+        }
+
+        .terminal-dot.green {
+            background: #22c55e;
+        }
+
+        .terminal-title {
+            margin-left: auto;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        .terminal-body {
+            padding: 16px;
+            line-height: 1.8;
+        }
+
+        .terminal-line {
+            color: var(--text-secondary);
+        }
+
+        .terminal-prompt {
+            color: var(--accent);
+        }
+
+        .terminal-output {
+            color: var(--text);
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../website/index.html">Monarch Castle</a>
+                <span>/</span>
+                <span>MCFI-001</span>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>OPERATIONAL</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="module-id">MCFI-001 // FINANCIAL INTELLIGENCE</div>
+                <h1>Inflation Intelligence Agency</h1>
+                <p>Real-time economic monitoring with shadow CPI tracking across major Turkish retail networks. Bypass
+                    lagging official statistics.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">6h</div>
+                    <div class="stat-label">Update Cycle</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">Products Tracked</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">3</div>
+                    <div class="stat-label">Retail Sources</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Monitoring</div>
+                </div>
+            </div>
+        </div>
+
+        <section class="content">
+            <div class="container">
+                <div class="section">
+                    <h2 class="section-title">Mission</h2>
+                    <p>Track real-time prices from Turkish supermarkets to build a "Shadow CPI" that reveals the actual
+                        cost of living before official government statistics. Data sovereignty through direct
+                        observation.</p>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Data Sources</h2>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Source</th>
+                                <th>Type</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Migros</td>
+                                <td>Web Scraping</td>
+                                <td style="color: var(--accent);">● Active</td>
+                            </tr>
+                            <tr>
+                                <td>Şok Market</td>
+                                <td>Web Scraping</td>
+                                <td style="color: var(--accent);">● Active</td>
+                            </tr>
+                            <tr>
+                                <td>CarrefourSA</td>
+                                <td>Web Scraping</td>
+                                <td style="color: var(--warning);">● Standby</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Execute</h2>
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">inflation_tracker.py</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line"><span class="terminal-prompt">$</span> <span
+                                    class="terminal-output">python inflation_tracker.py</span></div>
+                            <div class="terminal-line"><span class="terminal-output">[INFO] Initializing headless
+                                    browser...</span></div>
+                            <div class="terminal-line"><span class="terminal-output">[INFO] Scraping Migros
+                                    products...</span></div>
+                            <div class="terminal-line"><span class="terminal-output">[INFO] Data saved to
+                                    inflation_data.csv</span></div>
+                            <div class="terminal-line"><span class="terminal-prompt">$</span> <span
+                                    style="animation: blink 1s infinite;">_</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Output Schema</h2>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Column</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Date</td>
+                                <td>DATE</td>
+                                <td>Collection date</td>
+                            </tr>
+                            <tr>
+                                <td>Time</td>
+                                <td>TIME</td>
+                                <td>Collection timestamp</td>
+                            </tr>
+                            <tr>
+                                <td>Product_Name</td>
+                                <td>STRING</td>
+                                <td>Product identifier</td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>FLOAT</td>
+                                <td>Price in TRY</td>
+                            </tr>
+                            <tr>
+                                <td>Source_URL</td>
+                                <td>STRING</td>
+                                <td>Origin URL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>MCFI-001 · <a href="../website/index.html">Monarch Castle Technologies</a> · Istanbul</p>
+        </div>
+    </footer>
+</body>
+
+</html>
