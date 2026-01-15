@@ -768,8 +768,6 @@ def render_srti_html(latest, history, logo_path):
         </div>
         """
 
-    coup_signal = latest.get("coup_signal", {})
-
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1097,7 +1095,6 @@ def render_srti_html(latest, history, logo_path):
                     </div>
                     <div class="score-meta" style="margin-top: 12px;">
                         <div>Last Updated: {latest.get("fetched_at")[:16].replace("T", " ")}</div>
-                        <div>Coup Signal: {coup_signal.get("status")}</div>
                     </div>
                 </div>
                 <div class="map-card">

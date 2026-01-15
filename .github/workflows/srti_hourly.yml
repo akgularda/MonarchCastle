@@ -34,7 +34,7 @@ jobs:
       - name: Run SRTI pipeline
         run: |
           python "Sahel Region Threat Index (SRTI)/sahel_watch.py"
-          python "Sahel Region Threat Index (SRTI)/coup_detector.py"
+
           python -c "import generate_pages as gp; gp.generate_srti_page()"
 
       - name: Commit updates

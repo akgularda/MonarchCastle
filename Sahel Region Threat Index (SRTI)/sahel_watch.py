@@ -120,16 +120,7 @@ REGION_KEYWORDS = [
     "agadez",
 ]
 
-COUP_KEYWORDS = [
-    "coup",
-    "putsch",
-    "junta",
-    "military takeover",
-    "seized power",
-    "mutiny",
-    "overthrew",
-    "regime change",
-]
+
 
 CONFLICT_KEYWORDS = [
     "attack",
@@ -167,18 +158,13 @@ EXTREMIST_KEYWORDS = [
     "boko haram",
 ]
 
+
 BUCKETS = {
     "conflict_intensity": {
         "keywords": CONFLICT_KEYWORDS + EXTREMIST_KEYWORDS,
         "multiplier": 1.4,
         "scale": 12,
         "weight": 0.5,
-    },
-    "coup_risk": {
-        "keywords": COUP_KEYWORDS,
-        "multiplier": 2.2,
-        "scale": 18,
-        "weight": 0.3,
     },
     "civilian_risk": {
         "keywords": CIVILIAN_KEYWORDS,
@@ -188,9 +174,9 @@ BUCKETS = {
     },
 }
 
-
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
+
 
 
 def parse_datetime(value: Optional[str]) -> Optional[datetime]:
@@ -480,9 +466,6 @@ def main() -> None:
     event_rows = []
     scored_items = []
     raw_buckets = {key: 0.0 for key in BUCKETS}
-    coup_capitals = {"Bamako": "bamako", "Niamey": "niamey", "Ouagadougou": "ouagadougou"}
-    coup_counts = {cap: 0 for cap in coup_capitals}
-    coup_total = 0
 
     for source, item in all_items:
         title = (item.get("title") or "").strip()
@@ -526,14 +509,6 @@ def main() -> None:
             "regions": region_hits,
         }
         scored_items.append(scored_item)
-
-        if "coup_risk" in tags:
-            age_hours = (now - published).total_seconds() / 3600
-            if age_hours <= COUP_WINDOW_HOURS:
-                coup_total += 1
-                for capital, keyword in coup_capitals.items():
-                    if keyword in region_hits:
-                        coup_counts[capital] += 1
 
         if link and link in existing_links:
             continue
@@ -586,16 +561,6 @@ def main() -> None:
 
     forecast = forecast_scores(history, FORECAST_HOURS)
 
-    coup_status = "NORMAL"
-    coup_focus = None
-    for capital, count in coup_counts.items():
-        if count >= 3:
-            coup_status = "RED ALERT"
-            coup_focus = capital
-            break
-    if coup_status == "NORMAL" and coup_total >= 5:
-        coup_status = "ELEVATED"
-
     latest = {
         "fetched_at": now.isoformat(),
         "window_hours": WINDOW_HOURS,
@@ -607,12 +572,6 @@ def main() -> None:
         "sources": source_status,
         "top_headlines": top_items,
         "forecast": forecast,
-        "coup_signal": {
-            "status": coup_status,
-            "capital_focus": coup_focus,
-            "count_24h": coup_total,
-            "window_hours": COUP_WINDOW_HOURS,
-        },
     }
 
     with LATEST_JSON.open("w", encoding="utf-8") as f:
