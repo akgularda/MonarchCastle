@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-15T22:31:49.099051+00:00",
+  "fetched_at": "2026-01-15T23:30:11.136438+00:00",
   "window_hours": 72,
   "score": 4.0,
   "risk_level": "LOW",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 90
+      "items": 86
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-15T22:31:49.099051+00:00",
+      "published_at": "2026-01-15T23:30:11.136438+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -107,27 +107,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-15T22:57:48.227623+00:00",
+      "timestamp": "2026-01-16T00:28:33.173825+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-15T23:23:47.356195+00:00",
+      "timestamp": "2026-01-16T01:26:55.211212+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-15T23:49:46.484767+00:00",
+      "timestamp": "2026-01-16T02:25:17.248599+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T00:15:45.613339+00:00",
+      "timestamp": "2026-01-16T03:23:39.285986+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T00:41:44.741911+00:00",
+      "timestamp": "2026-01-16T04:22:01.323373+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T01:07:43.870483+00:00",
+      "timestamp": "2026-01-16T05:20:23.360760+00:00",
       "score": 0.0
     }
   ]
