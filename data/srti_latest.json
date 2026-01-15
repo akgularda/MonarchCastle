@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-15T22:04:29.747293+00:00",
+  "fetched_at": "2026-01-15T22:05:49.970479+00:00",
   "window_hours": 72,
   "score": 4.0,
   "risk_level": "LOW",
@@ -66,6 +66,30 @@
       "url": "https://www.crisisgroup.org/rss.xml",
       "status": "ok",
       "items": 10
+    },
+    {
+      "name": "France 24 - Africa",
+      "url": "https://www.france24.com/en/africa/rss",
+      "status": "ok",
+      "items": 30
+    },
+    {
+      "name": "AllAfrica - Mali",
+      "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
+      "status": "ok",
+      "items": 24
+    },
+    {
+      "name": "AllAfrica - Niger",
+      "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "name": "AllAfrica - Burkina Faso",
+      "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
+      "status": "ok",
+      "items": 25
     }
   ],
   "top_headlines": [
@@ -73,7 +97,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-15T22:04:29.747293+00:00",
+      "published_at": "2026-01-15T22:05:49.970479+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -81,5 +105,30 @@
       "regions": []
     }
   ],
-  "forecast": []
+  "forecast": [
+    {
+      "timestamp": "2026-01-15T22:07:10.193665+00:00",
+      "score": 0.0
+    },
+    {
+      "timestamp": "2026-01-15T22:08:30.416851+00:00",
+      "score": 0.0
+    },
+    {
+      "timestamp": "2026-01-15T22:09:50.640037+00:00",
+      "score": 0.0
+    },
+    {
+      "timestamp": "2026-01-15T22:11:10.863223+00:00",
+      "score": 0.0
+    },
+    {
+      "timestamp": "2026-01-15T22:12:31.086409+00:00",
+      "score": 0.0
+    },
+    {
+      "timestamp": "2026-01-15T22:13:51.309595+00:00",
+      "score": 0.0
+    }
+  ]
 }

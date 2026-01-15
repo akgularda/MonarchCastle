@@ -103,6 +103,34 @@ SOURCES = [
         "region_focus": False,
         "weight": 0.6,
     },
+    {
+        "name": "France 24 - Africa",
+        "rss": "https://www.france24.com/en/africa/rss",
+        "html": "https://www.france24.com/en/africa/",
+        "region_focus": False,
+        "weight": 0.7,
+    },
+    {
+        "name": "AllAfrica - Mali",
+        "rss": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
+        "html": "https://allafrica.com/mali/",
+        "region_focus": True,
+        "weight": 0.6,
+    },
+    {
+        "name": "AllAfrica - Niger",
+        "rss": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
+        "html": "https://allafrica.com/niger/",
+        "region_focus": True,
+        "weight": 0.6,
+    },
+    {
+        "name": "AllAfrica - Burkina Faso",
+        "rss": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
+        "html": "https://allafrica.com/burkinafaso/",
+        "region_focus": True,
+        "weight": 0.6,
+    },
 ]
 
 REGION_KEYWORDS = [
