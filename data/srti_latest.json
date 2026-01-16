@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-16T18:46:29.620489+00:00",
+  "fetched_at": "2026-01-16T19:25:59.509220+00:00",
   "window_hours": 72,
-  "score": 22.5,
+  "score": 22.4,
   "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 28.9,
+    "conflict_intensity": 28.6,
     "civilian_risk": 40.3
   },
   "weights": {
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 105
+      "items": 108
     },
     {
       "name": "ActuNiger",
@@ -94,11 +94,11 @@
   ],
   "top_headlines": [
     {
-      "title": "Gulf Tensions Spill into Somalia as Mogadishu Severs UAE Ties",
+      "title": "Gulf Tensions Spill into Somalia as Mogadishu Snubs UAE",
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 1.57,
+      "score": 1.55,
       "tags": [
         "conflict_intensity"
       ],
@@ -110,7 +110,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-16T18:46:29.620489+00:00",
+      "published_at": "2026-01-16T19:25:59.509220+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -125,7 +125,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T18:46:29.620489+00:00",
+      "published_at": "2026-01-16T19:25:59.509220+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -137,7 +137,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.84,
+      "score": 0.83,
       "tags": [
         "conflict_intensity"
       ],
@@ -148,28 +148,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T20:00:24.552309+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-16T20:05:29.397951+00:00",
+      "score": 12.3
     },
     {
-      "timestamp": "2026-01-16T21:14:19.484129+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-16T20:44:59.286682+00:00",
+      "score": 12.5
     },
     {
-      "timestamp": "2026-01-16T22:28:14.415949+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-16T21:24:29.175413+00:00",
+      "score": 12.6
     },
     {
-      "timestamp": "2026-01-16T23:42:09.347769+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-16T22:03:59.064144+00:00",
+      "score": 12.8
     },
     {
-      "timestamp": "2026-01-17T00:56:04.279589+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-16T22:43:28.952875+00:00",
+      "score": 12.9
     },
     {
-      "timestamp": "2026-01-17T02:09:59.211409+00:00",
-      "score": 10.3
+      "timestamp": "2026-01-16T23:22:58.841606+00:00",
+      "score": 13.1
     }
   ]
 }
