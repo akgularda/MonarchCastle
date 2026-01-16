@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-16T10:35:44.261654+00:00",
+  "fetched_at": "2026-01-16T11:28:58.877185+00:00",
   "window_hours": 72,
   "score": 4.0,
   "risk_level": "LOW",
@@ -97,7 +97,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T10:35:44.261654+00:00",
+      "published_at": "2026-01-16T11:28:58.877185+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -107,27 +107,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T11:35:33.766437+00:00",
+      "timestamp": "2026-01-16T12:22:13.492716+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T12:35:23.271220+00:00",
+      "timestamp": "2026-01-16T13:15:28.108247+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T13:35:12.776003+00:00",
+      "timestamp": "2026-01-16T14:08:42.723778+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T14:35:02.280786+00:00",
+      "timestamp": "2026-01-16T15:01:57.339309+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T15:34:51.785569+00:00",
+      "timestamp": "2026-01-16T15:55:11.954840+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T16:34:41.290352+00:00",
+      "timestamp": "2026-01-16T16:48:26.570371+00:00",
       "score": 0.0
     }
   ]
