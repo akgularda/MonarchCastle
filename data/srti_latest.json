@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-16T21:29:56.989412+00:00",
+  "fetched_at": "2026-01-16T22:31:23.152351+00:00",
   "window_hours": 72,
-  "score": 21.9,
-  "risk_level": "GUARDED",
+  "score": 17.7,
+  "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 27.7,
-    "civilian_risk": 40.3
+    "conflict_intensity": 27.3,
+    "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 4,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 104
+      "items": 96
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 1.5,
+      "score": 1.48,
       "tags": [
         "conflict_intensity"
       ],
@@ -110,7 +110,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-16T21:29:56.989412+00:00",
+      "published_at": "2026-01-16T22:31:23.152351+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,22 +122,11 @@
       ]
     },
     {
-      "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
-      "link": "https://lefaso.net/spip.php?article143711",
-      "source": "LeFaso",
-      "published_at": "2026-01-16T21:29:56.989412+00:00",
-      "score": 1.44,
-      "tags": [
-        "civilian_risk"
-      ],
-      "regions": []
-    },
-    {
       "title": "Nigerian imam honoured for saving Christian lives dies aged 90",
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.81,
+      "score": 0.79,
       "tags": [
         "conflict_intensity"
       ],
@@ -148,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T22:29:04.593379+00:00",
-      "score": 18.1
+      "timestamp": "2026-01-16T23:32:49.315290+00:00",
+      "score": 21.5
     },
     {
-      "timestamp": "2026-01-16T23:28:12.197346+00:00",
-      "score": 18.7
+      "timestamp": "2026-01-17T00:34:15.478229+00:00",
+      "score": 22.4
     },
     {
-      "timestamp": "2026-01-17T00:27:19.801313+00:00",
-      "score": 19.3
+      "timestamp": "2026-01-17T01:35:41.641168+00:00",
+      "score": 23.3
     },
     {
-      "timestamp": "2026-01-17T01:26:27.405280+00:00",
-      "score": 19.9
+      "timestamp": "2026-01-17T02:37:07.804107+00:00",
+      "score": 24.3
     },
     {
-      "timestamp": "2026-01-17T02:25:35.009247+00:00",
-      "score": 20.5
+      "timestamp": "2026-01-17T03:38:33.967046+00:00",
+      "score": 25.2
     },
     {
-      "timestamp": "2026-01-17T03:24:42.613214+00:00",
-      "score": 21.1
+      "timestamp": "2026-01-17T04:40:00.129985+00:00",
+      "score": 26.1
     }
   ]
 }
