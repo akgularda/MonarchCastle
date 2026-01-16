@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-16T16:40:34.314295+00:00",
+  "fetched_at": "2026-01-16T17:32:34.688669+00:00",
   "window_hours": 72,
-  "score": 17.8,
+  "score": 17.7,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 19.4,
+    "conflict_intensity": 19.2,
     "civilian_risk": 40.3
   },
   "weights": {
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 100
+      "items": 104
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 1.62,
+      "score": 1.6,
       "tags": [
         "conflict_intensity"
       ],
@@ -110,7 +110,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-16T16:40:34.314295+00:00",
+      "published_at": "2026-01-16T17:32:34.688669+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -125,7 +125,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T16:40:34.314295+00:00",
+      "published_at": "2026-01-16T17:32:34.688669+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -135,28 +135,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T17:47:21.564099+00:00",
-      "score": 5.7
+      "timestamp": "2026-01-16T18:24:35.063043+00:00",
+      "score": 7.6
     },
     {
-      "timestamp": "2026-01-16T18:54:08.813903+00:00",
-      "score": 5.4
+      "timestamp": "2026-01-16T19:16:35.437417+00:00",
+      "score": 7.5
     },
     {
-      "timestamp": "2026-01-16T20:00:56.063707+00:00",
-      "score": 5.0
+      "timestamp": "2026-01-16T20:08:35.811791+00:00",
+      "score": 7.3
     },
     {
-      "timestamp": "2026-01-16T21:07:43.313511+00:00",
-      "score": 4.7
+      "timestamp": "2026-01-16T21:00:36.186165+00:00",
+      "score": 7.2
     },
     {
-      "timestamp": "2026-01-16T22:14:30.563315+00:00",
-      "score": 4.4
+      "timestamp": "2026-01-16T21:52:36.560539+00:00",
+      "score": 7.0
     },
     {
-      "timestamp": "2026-01-16T23:21:17.813119+00:00",
-      "score": 4.1
+      "timestamp": "2026-01-16T22:44:36.934913+00:00",
+      "score": 6.8
     }
   ]
 }
