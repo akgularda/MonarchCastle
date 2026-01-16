@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-15T23:30:11.136438+00:00",
+  "fetched_at": "2026-01-16T02:25:20.468840+00:00",
   "window_hours": 72,
   "score": 4.0,
   "risk_level": "LOW",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 33
+      "items": 34
     },
     {
       "name": "UN News Africa",
@@ -89,7 +89,7 @@
       "name": "AllAfrica - Burkina Faso",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "items": 25
+      "items": 23
     }
   ],
   "top_headlines": [
@@ -97,7 +97,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-15T23:30:11.136438+00:00",
+      "published_at": "2026-01-16T02:25:20.468840+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -107,27 +107,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T00:28:33.173825+00:00",
+      "timestamp": "2026-01-16T05:20:29.801242+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T01:26:55.211212+00:00",
+      "timestamp": "2026-01-16T08:15:39.133644+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T02:25:17.248599+00:00",
+      "timestamp": "2026-01-16T11:10:48.466046+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T03:23:39.285986+00:00",
+      "timestamp": "2026-01-16T14:05:57.798448+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T04:22:01.323373+00:00",
+      "timestamp": "2026-01-16T17:01:07.130850+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T05:20:23.360760+00:00",
+      "timestamp": "2026-01-16T19:56:16.463252+00:00",
       "score": 0.0
     }
   ]
