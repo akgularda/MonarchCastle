@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-16T19:25:59.509220+00:00",
+  "fetched_at": "2026-01-16T20:30:49.385445+00:00",
   "window_hours": 72,
-  "score": 22.4,
+  "score": 22.1,
   "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 28.6,
+    "conflict_intensity": 28.1,
     "civilian_risk": 40.3
   },
   "weights": {
@@ -16,32 +16,32 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
       "url": "https://www.maliweb.net/feed",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 108
+      "items": 109
     },
     {
       "name": "ActuNiger",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 34
+      "items": 35
     },
     {
       "name": "UN News Africa",
@@ -98,7 +98,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 1.55,
+      "score": 1.53,
       "tags": [
         "conflict_intensity"
       ],
@@ -110,7 +110,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-16T19:25:59.509220+00:00",
+      "published_at": "2026-01-16T20:30:49.385445+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -125,7 +125,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T19:25:59.509220+00:00",
+      "published_at": "2026-01-16T20:30:49.385445+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -137,7 +137,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.83,
+      "score": 0.82,
       "tags": [
         "conflict_intensity"
       ],
@@ -148,28 +148,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T20:05:29.397951+00:00",
-      "score": 12.3
+      "timestamp": "2026-01-16T21:35:39.261670+00:00",
+      "score": 14.1
     },
     {
-      "timestamp": "2026-01-16T20:44:59.286682+00:00",
-      "score": 12.5
+      "timestamp": "2026-01-16T22:40:29.137895+00:00",
+      "score": 14.3
     },
     {
-      "timestamp": "2026-01-16T21:24:29.175413+00:00",
-      "score": 12.6
+      "timestamp": "2026-01-16T23:45:19.014120+00:00",
+      "score": 14.6
     },
     {
-      "timestamp": "2026-01-16T22:03:59.064144+00:00",
-      "score": 12.8
+      "timestamp": "2026-01-17T00:50:08.890345+00:00",
+      "score": 14.8
     },
     {
-      "timestamp": "2026-01-16T22:43:28.952875+00:00",
-      "score": 12.9
+      "timestamp": "2026-01-17T01:54:58.766570+00:00",
+      "score": 15.1
     },
     {
-      "timestamp": "2026-01-16T23:22:58.841606+00:00",
-      "score": 13.1
+      "timestamp": "2026-01-17T02:59:48.642795+00:00",
+      "score": 15.3
     }
   ]
 }
