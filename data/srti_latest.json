@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-16T13:47:11.064245+00:00",
+  "fetched_at": "2026-01-16T14:34:06.728600+00:00",
   "window_hours": 72,
   "score": 8.1,
   "risk_level": "LOW",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 92
+      "items": 94
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-16T13:47:11.064245+00:00",
+      "published_at": "2026-01-16T14:34:06.728600+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -112,7 +112,7 @@
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T13:47:11.064245+00:00",
+      "published_at": "2026-01-16T14:34:06.728600+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,27 +122,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T14:31:08.093209+00:00",
+      "timestamp": "2026-01-16T15:21:02.392955+00:00",
+      "score": 0.4
+    },
+    {
+      "timestamp": "2026-01-16T16:07:58.057310+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T15:15:05.122173+00:00",
+      "timestamp": "2026-01-16T16:54:53.721665+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T15:59:02.151137+00:00",
+      "timestamp": "2026-01-16T17:41:49.386020+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T16:42:59.180101+00:00",
+      "timestamp": "2026-01-16T18:28:45.050375+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T17:26:56.209065+00:00",
-      "score": 0.0
-    },
-    {
-      "timestamp": "2026-01-16T18:10:53.238029+00:00",
+      "timestamp": "2026-01-16T19:15:40.714730+00:00",
       "score": 0.0
     }
   ]
