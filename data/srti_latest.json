@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-16T11:28:58.877185+00:00",
+  "fetched_at": "2026-01-16T13:03:14.035281+00:00",
   "window_hours": 72,
-  "score": 4.0,
+  "score": 8.1,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 0.0,
-    "civilian_risk": 20.2
+    "civilian_risk": 40.3
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 1,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 86
+      "items": 90
     },
     {
       "name": "ActuNiger",
@@ -94,10 +94,25 @@
   ],
   "top_headlines": [
     {
+      "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
+      "link": "https://lefaso.net/spip.php?article143786",
+      "source": "LeFaso",
+      "published_at": "2026-01-16T13:03:14.035281+00:00",
+      "score": 1.44,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "burkina",
+        "burkina faso",
+        "ouagadougou"
+      ]
+    },
+    {
       "title": "Alphab\u00e9tisation : La campagne en langue nationale San officiellement lanc\u00e9e \u00e0 Toma",
       "link": "https://lefaso.net/spip.php?article143711",
       "source": "LeFaso",
-      "published_at": "2026-01-16T11:28:58.877185+00:00",
+      "published_at": "2026-01-16T13:03:14.035281+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -107,27 +122,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-16T12:22:13.492716+00:00",
+      "timestamp": "2026-01-16T14:37:29.193377+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T13:15:28.108247+00:00",
+      "timestamp": "2026-01-16T16:11:44.351473+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T14:08:42.723778+00:00",
+      "timestamp": "2026-01-16T17:45:59.509569+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T15:01:57.339309+00:00",
+      "timestamp": "2026-01-16T19:20:14.667665+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T15:55:11.954840+00:00",
+      "timestamp": "2026-01-16T20:54:29.825761+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-16T16:48:26.570371+00:00",
+      "timestamp": "2026-01-16T22:28:44.983857+00:00",
       "score": 0.0
     }
   ]
