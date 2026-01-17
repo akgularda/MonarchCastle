@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-17T15:28:48.811388+00:00",
+  "fetched_at": "2026-01-17T16:33:25.208698+00:00",
   "window_hours": 72,
-  "score": 7.6,
+  "score": 13.9,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 7.2,
+    "conflict_intensity": 19.7,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 2,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -64,8 +64,8 @@
     {
       "name": "Crisis Group",
       "url": "https://www.crisisgroup.org/rss.xml",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "name": "France 24 - Africa",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-17T15:28:48.811388+00:00",
+      "published_at": "2026-01-17T16:33:25.208698+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -109,11 +109,24 @@
       ]
     },
     {
+      "title": "Gulf Tensions Spill into Somalia as Mogadishu Snubs UAE",
+      "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
+      "source": "Crisis Group",
+      "published_at": "2026-01-16T13:56:59+00:00",
+      "score": 1.06,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "mali"
+      ]
+    },
+    {
       "title": "Nigerian imam honoured for saving Christian lives dies aged 90",
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.6,
+      "score": 0.58,
       "tags": [
         "conflict_intensity"
       ],
@@ -124,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-17T16:29:30.510531+00:00",
-      "score": 13.0
+      "timestamp": "2026-01-17T17:38:01.606008+00:00",
+      "score": 11.8
     },
     {
-      "timestamp": "2026-01-17T17:30:12.209674+00:00",
-      "score": 12.7
+      "timestamp": "2026-01-17T18:42:38.003318+00:00",
+      "score": 11.5
     },
     {
-      "timestamp": "2026-01-17T18:30:53.908817+00:00",
-      "score": 12.5
+      "timestamp": "2026-01-17T19:47:14.400628+00:00",
+      "score": 11.1
     },
     {
-      "timestamp": "2026-01-17T19:31:35.607960+00:00",
-      "score": 12.2
+      "timestamp": "2026-01-17T20:51:50.797938+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-17T20:32:17.307103+00:00",
-      "score": 12.0
+      "timestamp": "2026-01-17T21:56:27.195248+00:00",
+      "score": 10.4
     },
     {
-      "timestamp": "2026-01-17T21:32:59.006246+00:00",
-      "score": 11.7
+      "timestamp": "2026-01-17T23:01:03.592558+00:00",
+      "score": 10.0
     }
   ]
 }
