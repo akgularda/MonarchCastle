@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-17T19:22:47.392351+00:00",
+  "fetched_at": "2026-01-17T20:31:13.404529+00:00",
   "window_hours": 72,
-  "score": 13.3,
+  "score": 13.1,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 18.5,
+    "conflict_intensity": 18.1,
     "civilian_risk": 20.2
   },
   "weights": {
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-17T19:22:47.392351+00:00",
+      "published_at": "2026-01-17T20:31:13.404529+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -113,7 +113,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 0.99,
+      "score": 0.97,
       "tags": [
         "conflict_intensity"
       ],
@@ -126,7 +126,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.55,
+      "score": 0.54,
       "tags": [
         "conflict_intensity"
       ],
@@ -137,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-17T20:06:14.607879+00:00",
-      "score": 10.9
+      "timestamp": "2026-01-17T21:39:39.416707+00:00",
+      "score": 11.1
     },
     {
-      "timestamp": "2026-01-17T20:49:41.823407+00:00",
-      "score": 10.5
+      "timestamp": "2026-01-17T22:48:05.428885+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-17T21:33:09.038935+00:00",
-      "score": 10.1
+      "timestamp": "2026-01-17T23:56:31.441063+00:00",
+      "score": 10.4
     },
     {
-      "timestamp": "2026-01-17T22:16:36.254463+00:00",
+      "timestamp": "2026-01-18T01:04:57.453241+00:00",
+      "score": 10.0
+    },
+    {
+      "timestamp": "2026-01-18T02:13:23.465419+00:00",
       "score": 9.7
     },
     {
-      "timestamp": "2026-01-17T23:00:03.469991+00:00",
+      "timestamp": "2026-01-18T03:21:49.477597+00:00",
       "score": 9.3
-    },
-    {
-      "timestamp": "2026-01-17T23:43:30.685519+00:00",
-      "score": 8.9
     }
   ]
 }
