@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-17T13:35:13.080310+00:00",
+  "fetched_at": "2026-01-17T14:28:07.112245+00:00",
   "window_hours": 72,
-  "score": 14.5,
+  "score": 14.3,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 21.0,
+    "conflict_intensity": 20.6,
     "civilian_risk": 20.2
   },
   "weights": {
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-17T13:35:13.080310+00:00",
+      "published_at": "2026-01-17T14:28:07.112245+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -113,7 +113,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 1.13,
+      "score": 1.11,
       "tags": [
         "conflict_intensity"
       ],
@@ -126,7 +126,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.62,
+      "score": 0.61,
       "tags": [
         "conflict_intensity"
       ],
@@ -137,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-17T14:13:46.709864+00:00",
-      "score": 16.2
+      "timestamp": "2026-01-17T15:21:01.144180+00:00",
+      "score": 15.2
     },
     {
-      "timestamp": "2026-01-17T14:52:20.339418+00:00",
-      "score": 16.2
+      "timestamp": "2026-01-17T16:13:55.176115+00:00",
+      "score": 15.1
     },
     {
-      "timestamp": "2026-01-17T15:30:53.968972+00:00",
-      "score": 16.2
+      "timestamp": "2026-01-17T17:06:49.208050+00:00",
+      "score": 15.0
     },
     {
-      "timestamp": "2026-01-17T16:09:27.598526+00:00",
-      "score": 16.2
+      "timestamp": "2026-01-17T17:59:43.239985+00:00",
+      "score": 14.9
     },
     {
-      "timestamp": "2026-01-17T16:48:01.228080+00:00",
-      "score": 16.2
+      "timestamp": "2026-01-17T18:52:37.271920+00:00",
+      "score": 14.8
     },
     {
-      "timestamp": "2026-01-17T17:26:34.857634+00:00",
-      "score": 16.3
+      "timestamp": "2026-01-17T19:45:31.303855+00:00",
+      "score": 14.8
     }
   ]
 }
