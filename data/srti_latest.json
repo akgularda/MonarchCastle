@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-18T22:29:12.878630+00:00",
+  "fetched_at": "2026-01-18T23:28:17.527915+00:00",
   "window_hours": 72,
   "score": 9.3,
   "risk_level": "LOW",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 67
+      "items": 49
     },
     {
       "name": "ActuNiger",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 33
+      "items": 31
     },
     {
       "name": "UN News Africa",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-18T22:29:12.878630+00:00",
+      "published_at": "2026-01-18T23:28:17.527915+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -137,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-18T23:32:18.050844+00:00",
-      "score": 7.9
+      "timestamp": "2026-01-19T00:27:22.177200+00:00",
+      "score": 8.0
     },
     {
-      "timestamp": "2026-01-19T00:35:23.223058+00:00",
-      "score": 7.7
+      "timestamp": "2026-01-19T01:26:26.826485+00:00",
+      "score": 7.8
     },
     {
-      "timestamp": "2026-01-19T01:38:28.395272+00:00",
-      "score": 7.5
+      "timestamp": "2026-01-19T02:25:31.475770+00:00",
+      "score": 7.6
     },
     {
-      "timestamp": "2026-01-19T02:41:33.567486+00:00",
+      "timestamp": "2026-01-19T03:24:36.125055+00:00",
+      "score": 7.4
+    },
+    {
+      "timestamp": "2026-01-19T04:23:40.774340+00:00",
       "score": 7.3
     },
     {
-      "timestamp": "2026-01-19T03:44:38.739700+00:00",
+      "timestamp": "2026-01-19T05:22:45.423625+00:00",
       "score": 7.1
-    },
-    {
-      "timestamp": "2026-01-19T04:47:43.911914+00:00",
-      "score": 6.9
     }
   ]
 }
