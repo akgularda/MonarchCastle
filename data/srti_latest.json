@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-17T23:27:10.028426+00:00",
+  "fetched_at": "2026-01-18T02:33:27.899650+00:00",
   "window_hours": 72,
-  "score": 12.4,
+  "score": 11.8,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 16.8,
+    "conflict_intensity": 15.5,
     "civilian_risk": 20.2
   },
   "weights": {
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 75
+      "items": 70
     },
     {
       "name": "ActuNiger",
@@ -89,7 +89,7 @@
       "name": "AllAfrica - Burkina Faso",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "items": 22
+      "items": 21
     }
   ],
   "top_headlines": [
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-17T23:27:10.028426+00:00",
+      "published_at": "2026-01-18T02:33:27.899650+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -113,7 +113,7 @@
       "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
       "source": "Crisis Group",
       "published_at": "2026-01-16T13:56:59+00:00",
-      "score": 0.9,
+      "score": 0.83,
       "tags": [
         "conflict_intensity"
       ],
@@ -126,7 +126,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.5,
+      "score": 0.47,
       "tags": [
         "conflict_intensity"
       ],
@@ -137,27 +137,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-18T00:25:21.558357+00:00",
-      "score": 11.9
+      "timestamp": "2026-01-18T05:39:45.770874+00:00",
+      "score": 11.8
     },
     {
-      "timestamp": "2026-01-18T01:23:33.088288+00:00",
-      "score": 11.7
+      "timestamp": "2026-01-18T08:46:03.642098+00:00",
+      "score": 11.6
     },
     {
-      "timestamp": "2026-01-18T02:21:44.618219+00:00",
-      "score": 11.5
+      "timestamp": "2026-01-18T11:52:21.513322+00:00",
+      "score": 11.4
     },
     {
-      "timestamp": "2026-01-18T03:19:56.148150+00:00",
-      "score": 11.3
+      "timestamp": "2026-01-18T14:58:39.384546+00:00",
+      "score": 11.2
     },
     {
-      "timestamp": "2026-01-18T04:18:07.678081+00:00",
-      "score": 11.1
+      "timestamp": "2026-01-18T18:04:57.255770+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-18T05:16:19.208012+00:00",
+      "timestamp": "2026-01-18T21:11:15.126994+00:00",
       "score": 10.9
     }
   ]
