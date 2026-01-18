@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-18T15:28:17.180035+00:00",
+  "fetched_at": "2026-01-18T16:34:52.278823+00:00",
   "window_hours": 72,
-  "score": 9.5,
+  "score": 9.4,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 10.9,
+    "conflict_intensity": 10.7,
     "civilian_risk": 20.2
   },
   "weights": {
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 68
+      "items": 67
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-18T15:28:17.180035+00:00",
+      "published_at": "2026-01-18T16:34:52.278823+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -126,7 +126,7 @@
       "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.32,
+      "score": 0.3,
       "tags": [
         "conflict_intensity"
       ],
@@ -137,27 +137,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-18T16:29:18.834562+00:00",
-      "score": 9.2
+      "timestamp": "2026-01-18T17:41:27.377611+00:00",
+      "score": 9.1
     },
     {
-      "timestamp": "2026-01-18T17:30:20.489089+00:00",
-      "score": 9.0
+      "timestamp": "2026-01-18T18:48:02.476399+00:00",
+      "score": 8.9
     },
     {
-      "timestamp": "2026-01-18T18:31:22.143616+00:00",
-      "score": 8.8
+      "timestamp": "2026-01-18T19:54:37.575187+00:00",
+      "score": 8.7
     },
     {
-      "timestamp": "2026-01-18T19:32:23.798143+00:00",
+      "timestamp": "2026-01-18T21:01:12.673975+00:00",
       "score": 8.6
     },
     {
-      "timestamp": "2026-01-18T20:33:25.452670+00:00",
+      "timestamp": "2026-01-18T22:07:47.772763+00:00",
       "score": 8.4
     },
     {
-      "timestamp": "2026-01-18T21:34:27.107197+00:00",
+      "timestamp": "2026-01-18T23:14:22.871551+00:00",
       "score": 8.2
     }
   ]
