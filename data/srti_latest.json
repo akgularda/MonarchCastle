@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-18T19:23:25.359276+00:00",
+  "fetched_at": "2026-01-18T20:32:01.564477+00:00",
   "window_hours": 72,
-  "score": 5.8,
+  "score": 9.3,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 3.5,
+    "conflict_intensity": 10.6,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 2,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 68
+      "items": 70
     },
     {
       "name": "ActuNiger",
@@ -64,8 +64,8 @@
     {
       "name": "Crisis Group",
       "url": "https://www.crisisgroup.org/rss.xml",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "name": "France 24 - Africa",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-18T19:23:25.359276+00:00",
+      "published_at": "2026-01-18T20:32:01.564477+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -106,6 +106,19 @@
         "burkina",
         "burkina faso",
         "ouagadougou"
+      ]
+    },
+    {
+      "title": "Gulf Tensions Spill into Somalia as Mogadishu Snubs UAE",
+      "link": "https://www.crisisgroup.org/africa/somalia-somaliland-saudi-arabia-uae/gulf-tensions-spill-somalia-mogadishu-severs-uae-ties",
+      "source": "Crisis Group",
+      "published_at": "2026-01-16T13:56:59+00:00",
+      "score": 0.59,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "mali"
       ]
     },
     {
@@ -124,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-18T20:08:21.475805+00:00",
+      "timestamp": "2026-01-18T21:40:37.769678+00:00",
       "score": 7.8
     },
     {
-      "timestamp": "2026-01-18T20:53:17.592334+00:00",
+      "timestamp": "2026-01-18T22:49:13.974879+00:00",
       "score": 7.5
     },
     {
-      "timestamp": "2026-01-18T21:38:13.708863+00:00",
+      "timestamp": "2026-01-18T23:57:50.180080+00:00",
       "score": 7.3
     },
     {
-      "timestamp": "2026-01-18T22:23:09.825392+00:00",
-      "score": 7.0
+      "timestamp": "2026-01-19T01:06:26.385281+00:00",
+      "score": 7.1
     },
     {
-      "timestamp": "2026-01-18T23:08:05.941921+00:00",
-      "score": 6.8
+      "timestamp": "2026-01-19T02:15:02.590482+00:00",
+      "score": 6.9
     },
     {
-      "timestamp": "2026-01-18T23:53:02.058450+00:00",
-      "score": 6.5
+      "timestamp": "2026-01-19T03:23:38.795683+00:00",
+      "score": 6.6
     }
   ]
 }
