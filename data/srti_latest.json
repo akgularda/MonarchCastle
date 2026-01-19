@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-19T05:40:02.297971+00:00",
+  "fetched_at": "2026-01-19T06:53:32.362490+00:00",
   "window_hours": 72,
-  "score": 24.4,
-  "risk_level": "GUARDED",
+  "score": 9.3,
+  "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 40.8,
+    "conflict_intensity": 10.6,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 5,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 49
+      "items": 50
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T05:40:02.297971+00:00",
+      "published_at": "2026-01-19T06:53:32.362490+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -106,32 +106,6 @@
         "burkina",
         "burkina faso",
         "ouagadougou"
-      ]
-    },
-    {
-      "title": "Brief: Rising needs in a neglected crisis - Analysing the humanitarian situation in Mali (January 2026)",
-      "link": "https://reliefweb.int/report/mali/brief-rising-needs-neglected-crisis-analysing-humanitarian-situation-mali-january-2026",
-      "source": "ReliefWeb - Mali",
-      "published_at": "2026-01-19T05:40:02.297971+00:00",
-      "score": 1.26,
-      "tags": [
-        "conflict_intensity"
-      ],
-      "regions": [
-        "mali"
-      ]
-    },
-    {
-      "title": "Niger Food Security Outlook Update December 2025: Crisis (IPC Phase 3) outcomes persist in conflict-affected areas",
-      "link": "https://reliefweb.int/report/niger/niger-food-security-outlook-update-december-2025-crisis-ipc-phase-3-outcomes-persist-conflict-affected-areas",
-      "source": "ReliefWeb - Niger",
-      "published_at": "2026-01-19T05:40:02.297971+00:00",
-      "score": 1.26,
-      "tags": [
-        "conflict_intensity"
-      ],
-      "regions": [
-        "niger"
       ]
     },
     {
@@ -163,28 +137,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T07:03:10.122373+00:00",
+      "timestamp": "2026-01-19T08:07:02.427009+00:00",
+      "score": 14.0
+    },
+    {
+      "timestamp": "2026-01-19T09:20:32.491528+00:00",
       "score": 14.3
     },
     {
-      "timestamp": "2026-01-19T08:26:17.946775+00:00",
-      "score": 14.6
+      "timestamp": "2026-01-19T10:34:02.556047+00:00",
+      "score": 14.5
     },
     {
-      "timestamp": "2026-01-19T09:49:25.771177+00:00",
-      "score": 14.8
+      "timestamp": "2026-01-19T11:47:32.620566+00:00",
+      "score": 14.7
     },
     {
-      "timestamp": "2026-01-19T11:12:33.595579+00:00",
-      "score": 15.0
+      "timestamp": "2026-01-19T13:01:02.685085+00:00",
+      "score": 14.9
     },
     {
-      "timestamp": "2026-01-19T12:35:41.419981+00:00",
-      "score": 15.3
-    },
-    {
-      "timestamp": "2026-01-19T13:58:49.244383+00:00",
-      "score": 15.5
+      "timestamp": "2026-01-19T14:14:32.749604+00:00",
+      "score": 15.1
     }
   ]
 }
