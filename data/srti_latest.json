@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-19T18:45:57.900508+00:00",
+  "fetched_at": "2026-01-19T19:26:48.448395+00:00",
   "window_hours": 72,
-  "score": 12.0,
+  "score": 16.4,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.9,
-    "civilian_risk": 35.1
+    "conflict_intensity": 9.8,
+    "civilian_risk": 57.6
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 2,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 52
+      "items": 55
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://www.bbc.com/news/articles/c4grw9vg7y4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-19T17:41:47+00:00",
-      "score": 1.89,
+      "score": 1.87,
       "tags": [
         "conflict_intensity",
         "civilian_risk"
@@ -108,10 +108,26 @@
       ]
     },
     {
+      "title": "UNHCR Mali Situation of refugees from Burkina Faso and Niger (31 December 2025)",
+      "link": "https://reliefweb.int/report/mali/unhcr-mali-situation-refugees-burkina-faso-and-niger-31-december-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-19T19:26:48.448395+00:00",
+      "score": 1.62,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "mali",
+        "niger",
+        "burkina",
+        "burkina faso"
+      ]
+    },
+    {
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T18:45:57.900508+00:00",
+      "published_at": "2026-01-19T19:26:48.448395+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -125,28 +141,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T19:59:58.186123+00:00",
-      "score": 9.9
+      "timestamp": "2026-01-19T20:07:38.996282+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-19T21:13:58.471738+00:00",
-      "score": 9.8
+      "timestamp": "2026-01-19T20:48:29.544169+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-19T22:27:58.757353+00:00",
-      "score": 9.8
+      "timestamp": "2026-01-19T21:29:20.092056+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-19T23:41:59.042968+00:00",
-      "score": 9.7
+      "timestamp": "2026-01-19T22:10:10.639943+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-20T00:55:59.328583+00:00",
-      "score": 9.7
+      "timestamp": "2026-01-19T22:51:01.187830+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-20T02:09:59.614198+00:00",
-      "score": 9.6
+      "timestamp": "2026-01-19T23:31:51.735717+00:00",
+      "score": 10.7
     }
   ]
 }
