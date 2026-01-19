@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-19T15:36:25.339105+00:00",
+  "fetched_at": "2026-01-19T16:40:38.566693+00:00",
   "window_hours": 72,
-  "score": 4.0,
+  "score": 8.6,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 0.0,
-    "civilian_risk": 20.2
+    "civilian_risk": 42.8
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 1,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 47
+      "items": 49
     },
     {
       "name": "ActuNiger",
@@ -94,10 +94,26 @@
   ],
   "top_headlines": [
     {
+      "title": "UNHCR Mali Situation of refugees from Burkina Faso and Niger (31 December 2025)",
+      "link": "https://reliefweb.int/report/mali/unhcr-mali-situation-refugees-burkina-faso-and-niger-31-december-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-19T16:40:38.566693+00:00",
+      "score": 1.62,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "mali",
+        "niger",
+        "burkina",
+        "burkina faso"
+      ]
+    },
+    {
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T15:36:25.339105+00:00",
+      "published_at": "2026-01-19T16:40:38.566693+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -111,28 +127,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T16:34:40.609365+00:00",
-      "score": 11.4
+      "timestamp": "2026-01-19T17:44:51.794281+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-19T17:32:55.879625+00:00",
-      "score": 11.5
+      "timestamp": "2026-01-19T18:49:05.021869+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-19T18:31:11.149885+00:00",
-      "score": 11.5
+      "timestamp": "2026-01-19T19:53:18.249457+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-19T19:29:26.420145+00:00",
-      "score": 11.6
+      "timestamp": "2026-01-19T20:57:31.477045+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-19T20:27:41.690405+00:00",
-      "score": 11.7
+      "timestamp": "2026-01-19T22:01:44.704633+00:00",
+      "score": 11.0
     },
     {
-      "timestamp": "2026-01-19T21:25:56.960665+00:00",
-      "score": 11.7
+      "timestamp": "2026-01-19T23:05:57.932221+00:00",
+      "score": 11.1
     }
   ]
 }
