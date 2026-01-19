@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-01-19T02:30:55.049538+00:00",
+  "fetched_at": "2026-01-19T04:16:54.473569+00:00",
   "window_hours": 72,
-  "score": 16.9,
-  "risk_level": "LOW",
+  "score": 24.4,
+  "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 25.7,
+    "conflict_intensity": 40.8,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 4,
+  "items_count": 5,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T02:30:55.049538+00:00",
+      "published_at": "2026-01-19T04:16:54.473569+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -112,13 +112,26 @@
       "title": "Brief: Rising needs in a neglected crisis - Analysing the humanitarian situation in Mali (January 2026)",
       "link": "https://reliefweb.int/report/mali/brief-rising-needs-neglected-crisis-analysing-humanitarian-situation-mali-january-2026",
       "source": "ReliefWeb - Mali",
-      "published_at": "2026-01-19T02:30:55.049538+00:00",
+      "published_at": "2026-01-19T04:16:54.473569+00:00",
       "score": 1.26,
       "tags": [
         "conflict_intensity"
       ],
       "regions": [
         "mali"
+      ]
+    },
+    {
+      "title": "Niger Food Security Outlook Update December 2025: Crisis (IPC Phase 3) outcomes persist in conflict-affected areas",
+      "link": "https://reliefweb.int/report/niger/niger-food-security-outlook-update-december-2025-crisis-ipc-phase-3-outcomes-persist-conflict-affected-areas",
+      "source": "ReliefWeb - Niger",
+      "published_at": "2026-01-19T04:16:54.473569+00:00",
+      "score": 1.26,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "niger"
       ]
     },
     {
@@ -150,28 +163,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T05:33:32.571161+00:00",
-      "score": 9.3
+      "timestamp": "2026-01-19T06:02:53.897600+00:00",
+      "score": 11.9
     },
     {
-      "timestamp": "2026-01-19T08:36:10.092784+00:00",
-      "score": 9.3
+      "timestamp": "2026-01-19T07:48:53.321631+00:00",
+      "score": 12.0
     },
     {
-      "timestamp": "2026-01-19T11:38:47.614407+00:00",
-      "score": 9.2
+      "timestamp": "2026-01-19T09:34:52.745662+00:00",
+      "score": 12.1
     },
     {
-      "timestamp": "2026-01-19T14:41:25.136030+00:00",
-      "score": 9.1
+      "timestamp": "2026-01-19T11:20:52.169693+00:00",
+      "score": 12.2
     },
     {
-      "timestamp": "2026-01-19T17:44:02.657653+00:00",
-      "score": 9.0
+      "timestamp": "2026-01-19T13:06:51.593724+00:00",
+      "score": 12.3
     },
     {
-      "timestamp": "2026-01-19T20:46:40.179276+00:00",
-      "score": 9.0
+      "timestamp": "2026-01-19T14:52:51.017755+00:00",
+      "score": 12.3
     }
   ]
 }
