@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-18T23:28:17.527915+00:00",
+  "fetched_at": "2026-01-19T02:30:55.049538+00:00",
   "window_hours": 72,
-  "score": 9.3,
+  "score": 16.9,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 10.6,
+    "conflict_intensity": 25.7,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 3,
+  "items_count": 4,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 31
+      "items": 32
     },
     {
       "name": "UN News Africa",
@@ -89,7 +89,7 @@
       "name": "AllAfrica - Burkina Faso",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "items": 21
+      "items": 19
     }
   ],
   "top_headlines": [
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-18T23:28:17.527915+00:00",
+      "published_at": "2026-01-19T02:30:55.049538+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -106,6 +106,19 @@
         "burkina",
         "burkina faso",
         "ouagadougou"
+      ]
+    },
+    {
+      "title": "Brief: Rising needs in a neglected crisis - Analysing the humanitarian situation in Mali (January 2026)",
+      "link": "https://reliefweb.int/report/mali/brief-rising-needs-neglected-crisis-analysing-humanitarian-situation-mali-january-2026",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-19T02:30:55.049538+00:00",
+      "score": 1.26,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "mali"
       ]
     },
     {
@@ -137,28 +150,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T00:27:22.177200+00:00",
-      "score": 8.0
+      "timestamp": "2026-01-19T05:33:32.571161+00:00",
+      "score": 9.3
     },
     {
-      "timestamp": "2026-01-19T01:26:26.826485+00:00",
-      "score": 7.8
+      "timestamp": "2026-01-19T08:36:10.092784+00:00",
+      "score": 9.3
     },
     {
-      "timestamp": "2026-01-19T02:25:31.475770+00:00",
-      "score": 7.6
+      "timestamp": "2026-01-19T11:38:47.614407+00:00",
+      "score": 9.2
     },
     {
-      "timestamp": "2026-01-19T03:24:36.125055+00:00",
-      "score": 7.4
+      "timestamp": "2026-01-19T14:41:25.136030+00:00",
+      "score": 9.1
     },
     {
-      "timestamp": "2026-01-19T04:23:40.774340+00:00",
-      "score": 7.3
+      "timestamp": "2026-01-19T17:44:02.657653+00:00",
+      "score": 9.0
     },
     {
-      "timestamp": "2026-01-19T05:22:45.423625+00:00",
-      "score": 7.1
+      "timestamp": "2026-01-19T20:46:40.179276+00:00",
+      "score": 9.0
     }
   ]
 }
