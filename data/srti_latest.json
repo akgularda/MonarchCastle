@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-19T11:30:04.023690+00:00",
+  "fetched_at": "2026-01-19T13:08:41.643094+00:00",
   "window_hours": 72,
-  "score": 28.7,
-  "risk_level": "GUARDED",
+  "score": 7.6,
+  "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 22.2,
-    "civilian_risk": 88.2
+    "conflict_intensity": 7.1,
+    "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 5,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 53
+      "items": 50
     },
     {
       "name": "ActuNiger",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 34
+      "items": 35
     },
     {
       "name": "UN News Africa",
@@ -94,39 +94,10 @@
   ],
   "top_headlines": [
     {
-      "title": "Mali situation of refugees, internally displaced persons and returnees (31 December 2025)",
-      "link": "https://reliefweb.int/report/mali/mali-situation-refugees-internally-displaced-persons-and-returnees-31-december-2025",
-      "source": "ReliefWeb - Mali",
-      "published_at": "2026-01-19T11:30:04.023690+00:00",
-      "score": 3.24,
-      "tags": [
-        "civilian_risk"
-      ],
-      "regions": [
-        "mali"
-      ]
-    },
-    {
-      "title": "UNHCR Mali Situation of refugees from Burkina Faso and Niger (31 December 2025)",
-      "link": "https://reliefweb.int/report/mali/unhcr-mali-situation-refugees-burkina-faso-and-niger-31-december-2025",
-      "source": "ReliefWeb - Mali",
-      "published_at": "2026-01-19T11:30:04.023690+00:00",
-      "score": 1.62,
-      "tags": [
-        "civilian_risk"
-      ],
-      "regions": [
-        "mali",
-        "niger",
-        "burkina",
-        "burkina faso"
-      ]
-    },
-    {
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T11:30:04.023690+00:00",
+      "published_at": "2026-01-19T13:08:41.643094+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -135,19 +106,6 @@
         "burkina",
         "burkina faso",
         "ouagadougou"
-      ]
-    },
-    {
-      "title": "Niger Food Security Outlook Update December 2025: Crisis (IPC Phase 3) outcomes persist in conflict-affected areas",
-      "link": "https://reliefweb.int/report/niger/niger-food-security-outlook-update-december-2025-crisis-ipc-phase-3-outcomes-persist-conflict-affected-areas",
-      "source": "ReliefWeb - Niger",
-      "published_at": "2026-01-19T11:30:04.023690+00:00",
-      "score": 1.26,
-      "tags": [
-        "conflict_intensity"
-      ],
-      "regions": [
-        "niger"
       ]
     },
     {
@@ -166,28 +124,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T12:19:58.572391+00:00",
-      "score": 14.8
+      "timestamp": "2026-01-19T14:47:19.262498+00:00",
+      "score": 14.0
     },
     {
-      "timestamp": "2026-01-19T13:09:53.121092+00:00",
-      "score": 15.1
+      "timestamp": "2026-01-19T16:25:56.881902+00:00",
+      "score": 14.3
     },
     {
-      "timestamp": "2026-01-19T13:59:47.669793+00:00",
-      "score": 15.3
+      "timestamp": "2026-01-19T18:04:34.501306+00:00",
+      "score": 14.5
     },
     {
-      "timestamp": "2026-01-19T14:49:42.218494+00:00",
-      "score": 15.6
+      "timestamp": "2026-01-19T19:43:12.120710+00:00",
+      "score": 14.7
     },
     {
-      "timestamp": "2026-01-19T15:39:36.767195+00:00",
-      "score": 15.9
+      "timestamp": "2026-01-19T21:21:49.740114+00:00",
+      "score": 14.9
     },
     {
-      "timestamp": "2026-01-19T16:29:31.315896+00:00",
-      "score": 16.1
+      "timestamp": "2026-01-19T23:00:27.359518+00:00",
+      "score": 15.2
     }
   ]
 }
