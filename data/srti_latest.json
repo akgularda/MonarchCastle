@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-19T04:16:54.473569+00:00",
+  "fetched_at": "2026-01-19T05:40:02.297971+00:00",
   "window_hours": 72,
   "score": 24.4,
   "risk_level": "GUARDED",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T04:16:54.473569+00:00",
+      "published_at": "2026-01-19T05:40:02.297971+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -112,7 +112,7 @@
       "title": "Brief: Rising needs in a neglected crisis - Analysing the humanitarian situation in Mali (January 2026)",
       "link": "https://reliefweb.int/report/mali/brief-rising-needs-neglected-crisis-analysing-humanitarian-situation-mali-january-2026",
       "source": "ReliefWeb - Mali",
-      "published_at": "2026-01-19T04:16:54.473569+00:00",
+      "published_at": "2026-01-19T05:40:02.297971+00:00",
       "score": 1.26,
       "tags": [
         "conflict_intensity"
@@ -125,7 +125,7 @@
       "title": "Niger Food Security Outlook Update December 2025: Crisis (IPC Phase 3) outcomes persist in conflict-affected areas",
       "link": "https://reliefweb.int/report/niger/niger-food-security-outlook-update-december-2025-crisis-ipc-phase-3-outcomes-persist-conflict-affected-areas",
       "source": "ReliefWeb - Niger",
-      "published_at": "2026-01-19T04:16:54.473569+00:00",
+      "published_at": "2026-01-19T05:40:02.297971+00:00",
       "score": 1.26,
       "tags": [
         "conflict_intensity"
@@ -163,28 +163,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T06:02:53.897600+00:00",
-      "score": 11.9
+      "timestamp": "2026-01-19T07:03:10.122373+00:00",
+      "score": 14.3
     },
     {
-      "timestamp": "2026-01-19T07:48:53.321631+00:00",
-      "score": 12.0
+      "timestamp": "2026-01-19T08:26:17.946775+00:00",
+      "score": 14.6
     },
     {
-      "timestamp": "2026-01-19T09:34:52.745662+00:00",
-      "score": 12.1
+      "timestamp": "2026-01-19T09:49:25.771177+00:00",
+      "score": 14.8
     },
     {
-      "timestamp": "2026-01-19T11:20:52.169693+00:00",
-      "score": 12.2
+      "timestamp": "2026-01-19T11:12:33.595579+00:00",
+      "score": 15.0
     },
     {
-      "timestamp": "2026-01-19T13:06:51.593724+00:00",
-      "score": 12.3
+      "timestamp": "2026-01-19T12:35:41.419981+00:00",
+      "score": 15.3
     },
     {
-      "timestamp": "2026-01-19T14:52:51.017755+00:00",
-      "score": 12.3
+      "timestamp": "2026-01-19T13:58:49.244383+00:00",
+      "score": 15.5
     }
   ]
 }
