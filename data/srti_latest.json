@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-19T21:28:41.141224+00:00",
+  "fetched_at": "2026-01-19T22:31:32.574620+00:00",
   "window_hours": 72,
-  "score": 7.7,
+  "score": 12.1,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.6,
-    "civilian_risk": 14.3
+    "conflict_intensity": 9.4,
+    "civilian_risk": 36.8
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 1,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 43
+      "items": 45
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://www.bbc.com/news/articles/c4grw9vg7y4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-19T17:41:47+00:00",
-      "score": 1.82,
+      "score": 1.79,
       "tags": [
         "conflict_intensity",
         "civilian_risk"
@@ -106,32 +106,48 @@
       "regions": [
         "niger"
       ]
+    },
+    {
+      "title": "UNHCR Mali Situation of refugees from Burkina Faso and Niger (31 December 2025)",
+      "link": "https://reliefweb.int/report/mali/unhcr-mali-situation-refugees-burkina-faso-and-niger-31-december-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-19T22:31:32.574620+00:00",
+      "score": 1.62,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "mali",
+        "niger",
+        "burkina",
+        "burkina faso"
+      ]
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T22:22:56.877242+00:00",
+      "timestamp": "2026-01-19T23:34:24.008016+00:00",
       "score": 10.7
     },
     {
-      "timestamp": "2026-01-19T23:17:12.613260+00:00",
+      "timestamp": "2026-01-20T00:37:15.441412+00:00",
       "score": 10.7
     },
     {
-      "timestamp": "2026-01-20T00:11:28.349278+00:00",
+      "timestamp": "2026-01-20T01:40:06.874808+00:00",
       "score": 10.7
     },
     {
-      "timestamp": "2026-01-20T01:05:44.085296+00:00",
-      "score": 10.7
-    },
-    {
-      "timestamp": "2026-01-20T01:59:59.821314+00:00",
+      "timestamp": "2026-01-20T02:42:58.308204+00:00",
       "score": 10.6
     },
     {
-      "timestamp": "2026-01-20T02:54:15.557332+00:00",
+      "timestamp": "2026-01-20T03:45:49.741600+00:00",
       "score": 10.6
+    },
+    {
+      "timestamp": "2026-01-20T04:48:41.174996+00:00",
+      "score": 10.5
     }
   ]
 }
