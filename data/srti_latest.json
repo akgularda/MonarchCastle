@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-01-19T06:53:32.362490+00:00",
+  "fetched_at": "2026-01-19T07:37:06.448757+00:00",
   "window_hours": 72,
-  "score": 9.3,
+  "score": 7.6,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 10.6,
+    "conflict_intensity": 7.1,
     "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 3,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 32
+      "items": 33
     },
     {
       "name": "UN News Africa",
@@ -97,7 +97,7 @@
       "title": "Burkina Faso : 127 gendarmes d\u00e9cor\u00e9s pour services rendus \u00e0 la nation",
       "link": "https://lefaso.net/spip.php?article143786",
       "source": "LeFaso",
-      "published_at": "2026-01-19T06:53:32.362490+00:00",
+      "published_at": "2026-01-19T07:37:06.448757+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -120,45 +120,32 @@
       "regions": [
         "mali"
       ]
-    },
-    {
-      "title": "Nigerian imam honoured for saving Christian lives dies aged 90",
-      "link": "https://www.bbc.com/news/articles/cql4z369zk6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Africa",
-      "published_at": "2026-01-16T18:35:53+00:00",
-      "score": 0.29,
-      "tags": [
-        "conflict_intensity"
-      ],
-      "regions": [
-        "niger"
-      ]
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-19T08:07:02.427009+00:00",
+      "timestamp": "2026-01-19T08:20:40.535024+00:00",
+      "score": 13.4
+    },
+    {
+      "timestamp": "2026-01-19T09:04:14.621291+00:00",
+      "score": 13.6
+    },
+    {
+      "timestamp": "2026-01-19T09:47:48.707558+00:00",
+      "score": 13.8
+    },
+    {
+      "timestamp": "2026-01-19T10:31:22.793825+00:00",
       "score": 14.0
     },
     {
-      "timestamp": "2026-01-19T09:20:32.491528+00:00",
-      "score": 14.3
+      "timestamp": "2026-01-19T11:14:56.880092+00:00",
+      "score": 14.2
     },
     {
-      "timestamp": "2026-01-19T10:34:02.556047+00:00",
-      "score": 14.5
-    },
-    {
-      "timestamp": "2026-01-19T11:47:32.620566+00:00",
-      "score": 14.7
-    },
-    {
-      "timestamp": "2026-01-19T13:01:02.685085+00:00",
-      "score": 14.9
-    },
-    {
-      "timestamp": "2026-01-19T14:14:32.749604+00:00",
-      "score": 15.1
+      "timestamp": "2026-01-19T11:58:30.966359+00:00",
+      "score": 14.4
     }
   ]
 }
