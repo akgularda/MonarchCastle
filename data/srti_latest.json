@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-20T10:39:07.964492+00:00",
+  "fetched_at": "2026-01-20T11:31:57.977704+00:00",
   "window_hours": 72,
-  "score": 0.0,
+  "score": 4.5,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 0.0,
-    "civilian_risk": 0.0
+    "civilian_risk": 22.7
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 0,
+  "items_count": 1,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 48
+      "items": 52
     },
     {
       "name": "ActuNiger",
@@ -92,31 +92,48 @@
       "items": 15
     }
   ],
-  "top_headlines": [],
+  "top_headlines": [
+    {
+      "title": "UNHCR Mali Situation of refugees from Burkina Faso and Niger (31 December 2025)",
+      "link": "https://reliefweb.int/report/mali/unhcr-mali-situation-refugees-burkina-faso-and-niger-31-december-2025",
+      "source": "ReliefWeb - Mali",
+      "published_at": "2026-01-20T11:31:57.977704+00:00",
+      "score": 1.62,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "mali",
+        "niger",
+        "burkina",
+        "burkina faso"
+      ]
+    }
+  ],
   "forecast": [
     {
-      "timestamp": "2026-01-20T11:36:11.097590+00:00",
-      "score": 6.4
-    },
-    {
-      "timestamp": "2026-01-20T12:33:14.230688+00:00",
-      "score": 6.2
-    },
-    {
-      "timestamp": "2026-01-20T13:30:17.363786+00:00",
-      "score": 6.0
-    },
-    {
-      "timestamp": "2026-01-20T14:27:20.496884+00:00",
-      "score": 5.8
-    },
-    {
-      "timestamp": "2026-01-20T15:24:23.629982+00:00",
+      "timestamp": "2026-01-20T12:24:47.990916+00:00",
       "score": 5.6
     },
     {
-      "timestamp": "2026-01-20T16:21:26.763080+00:00",
-      "score": 5.4
+      "timestamp": "2026-01-20T13:17:38.004128+00:00",
+      "score": 5.3
+    },
+    {
+      "timestamp": "2026-01-20T14:10:28.017340+00:00",
+      "score": 5.0
+    },
+    {
+      "timestamp": "2026-01-20T15:03:18.030552+00:00",
+      "score": 4.8
+    },
+    {
+      "timestamp": "2026-01-20T15:56:08.043764+00:00",
+      "score": 4.5
+    },
+    {
+      "timestamp": "2026-01-20T16:48:58.056976+00:00",
+      "score": 4.3
     }
   ]
 }
