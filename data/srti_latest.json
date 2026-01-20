@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-20T16:47:03.494520+00:00",
+  "fetched_at": "2026-01-20T17:39:05.736511+00:00",
   "window_hours": 72,
   "score": 0.0,
   "risk_level": "LOW",
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 63
+      "items": 67
     },
     {
       "name": "ActuNiger",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 37
+      "items": 38
     },
     {
       "name": "UN News Africa",
@@ -95,27 +95,27 @@
   "top_headlines": [],
   "forecast": [
     {
-      "timestamp": "2026-01-20T17:53:42.164019+00:00",
-      "score": 1.7
+      "timestamp": "2026-01-20T18:31:07.978502+00:00",
+      "score": 0.6
     },
     {
-      "timestamp": "2026-01-20T19:00:20.833518+00:00",
-      "score": 1.3
+      "timestamp": "2026-01-20T19:23:10.220493+00:00",
+      "score": 0.2
     },
     {
-      "timestamp": "2026-01-20T20:06:59.503017+00:00",
-      "score": 0.9
+      "timestamp": "2026-01-20T20:15:12.462484+00:00",
+      "score": 0.0
     },
     {
-      "timestamp": "2026-01-20T21:13:38.172516+00:00",
-      "score": 0.5
+      "timestamp": "2026-01-20T21:07:14.704475+00:00",
+      "score": 0.0
     },
     {
-      "timestamp": "2026-01-20T22:20:16.842015+00:00",
-      "score": 0.1
+      "timestamp": "2026-01-20T21:59:16.946466+00:00",
+      "score": 0.0
     },
     {
-      "timestamp": "2026-01-20T23:26:55.511514+00:00",
+      "timestamp": "2026-01-20T22:51:19.188457+00:00",
       "score": 0.0
     }
   ]
