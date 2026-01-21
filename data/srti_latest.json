@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-21T18:55:09.955295+00:00",
+  "fetched_at": "2026-01-21T19:36:11.833739+00:00",
   "window_hours": 72,
-  "score": 0.0,
+  "score": 6.7,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 0.0,
+    "conflict_intensity": 13.4,
     "civilian_risk": 0.0
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 0,
+  "items_count": 1,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 85
+      "items": 89
     },
     {
       "name": "ActuNiger",
@@ -92,31 +92,43 @@
       "items": 15
     }
   ],
-  "top_headlines": [],
+  "top_headlines": [
+    {
+      "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
+      "link": "https://lefaso.net/spip.php?article143905",
+      "source": "LeFaso",
+      "published_at": "2026-01-21T19:36:11.833739+00:00",
+      "score": 1.12,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": []
+    }
+  ],
   "forecast": [
     {
-      "timestamp": "2026-01-21T20:41:29.095811+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T20:17:13.712183+00:00",
+      "score": 1.1
     },
     {
-      "timestamp": "2026-01-21T22:27:48.236327+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T20:58:15.590627+00:00",
+      "score": 1.2
     },
     {
-      "timestamp": "2026-01-22T00:14:07.376843+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T21:39:17.469071+00:00",
+      "score": 1.3
     },
     {
-      "timestamp": "2026-01-22T02:00:26.517359+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T22:20:19.347515+00:00",
+      "score": 1.3
     },
     {
-      "timestamp": "2026-01-22T03:46:45.657875+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T23:01:21.225959+00:00",
+      "score": 1.4
     },
     {
-      "timestamp": "2026-01-22T05:33:04.798391+00:00",
-      "score": 0.0
+      "timestamp": "2026-01-21T23:42:23.104403+00:00",
+      "score": 1.5
     }
   ]
 }
