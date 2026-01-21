@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-21T22:35:47.925020+00:00",
+  "fetched_at": "2026-01-21T23:34:36.929893+00:00",
   "window_hours": 72,
-  "score": 10.2,
+  "score": 10.1,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 13.4,
-    "civilian_risk": 17.3
+    "civilian_risk": 17.1
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 84
+      "items": 79
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 1.24,
+      "score": 1.22,
       "tags": [
         "civilian_risk"
       ],
@@ -110,7 +110,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-21T22:35:47.925020+00:00",
+      "published_at": "2026-01-21T23:34:36.929893+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -120,28 +120,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-21T23:33:29.475146+00:00",
-      "score": 5.2
+      "timestamp": "2026-01-22T00:33:25.934766+00:00",
+      "score": 6.5
     },
     {
-      "timestamp": "2026-01-22T00:31:11.025272+00:00",
-      "score": 5.5
+      "timestamp": "2026-01-22T01:32:14.939639+00:00",
+      "score": 6.8
     },
     {
-      "timestamp": "2026-01-22T01:28:52.575398+00:00",
-      "score": 5.8
+      "timestamp": "2026-01-22T02:31:03.944512+00:00",
+      "score": 7.2
     },
     {
-      "timestamp": "2026-01-22T02:26:34.125524+00:00",
-      "score": 6.1
+      "timestamp": "2026-01-22T03:29:52.949385+00:00",
+      "score": 7.6
     },
     {
-      "timestamp": "2026-01-22T03:24:15.675650+00:00",
-      "score": 6.4
+      "timestamp": "2026-01-22T04:28:41.954258+00:00",
+      "score": 8.0
     },
     {
-      "timestamp": "2026-01-22T04:21:57.225776+00:00",
-      "score": 6.7
+      "timestamp": "2026-01-22T05:27:30.959131+00:00",
+      "score": 8.3
     }
   ]
 }
