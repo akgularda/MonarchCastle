@@ -1260,5 +1260,15 @@
       "civilian_risk": 17.6
     },
     "items": 2
+  },
+  {
+    "timestamp": "2026-01-21T22:35:47.925020+00:00",
+    "score": 10.2,
+    "risk_level": "LOW",
+    "components": {
+      "conflict_intensity": 13.4,
+      "civilian_risk": 17.3
+    },
+    "items": 2
   }
 ]
