@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-22T05:38:01.382655+00:00",
+  "fetched_at": "2026-01-22T06:49:18.860976+00:00",
   "window_hours": 72,
   "score": 9.8,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 13.4,
-    "civilian_risk": 15.6
+    "civilian_risk": 15.3
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -97,7 +97,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-22T05:38:01.382655+00:00",
+      "published_at": "2026-01-22T06:49:18.860976+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -109,7 +109,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 1.11,
+      "score": 1.09,
       "tags": [
         "civilian_risk"
       ],
@@ -120,28 +120,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T07:01:43.169790+00:00",
-      "score": 9.7
+      "timestamp": "2026-01-22T08:00:36.339297+00:00",
+      "score": 10.5
     },
     {
-      "timestamp": "2026-01-22T08:25:24.956925+00:00",
-      "score": 10.2
+      "timestamp": "2026-01-22T09:11:53.817618+00:00",
+      "score": 11.1
     },
     {
-      "timestamp": "2026-01-22T09:49:06.744060+00:00",
-      "score": 10.7
+      "timestamp": "2026-01-22T10:23:11.295939+00:00",
+      "score": 11.6
     },
     {
-      "timestamp": "2026-01-22T11:12:48.531195+00:00",
-      "score": 11.3
+      "timestamp": "2026-01-22T11:34:28.774260+00:00",
+      "score": 12.2
     },
     {
-      "timestamp": "2026-01-22T12:36:30.318330+00:00",
-      "score": 11.8
+      "timestamp": "2026-01-22T12:45:46.252581+00:00",
+      "score": 12.7
     },
     {
-      "timestamp": "2026-01-22T14:00:12.105465+00:00",
-      "score": 12.3
+      "timestamp": "2026-01-22T13:57:03.730902+00:00",
+      "score": 13.3
     }
   ]
 }
