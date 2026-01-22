@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-22T02:29:49.502367+00:00",
+  "fetched_at": "2026-01-22T04:14:19.595520+00:00",
   "window_hours": 72,
-  "score": 10.0,
+  "score": 9.9,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 13.4,
-    "civilian_risk": 16.4
+    "civilian_risk": 15.9
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -98,7 +98,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 1.17,
+      "score": 1.14,
       "tags": [
         "civilian_risk"
       ],
@@ -110,7 +110,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-22T02:29:49.502367+00:00",
+      "published_at": "2026-01-22T04:14:19.595520+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -120,28 +120,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T05:25:02.074841+00:00",
-      "score": 7.7
+      "timestamp": "2026-01-22T05:58:49.688673+00:00",
+      "score": 8.7
     },
     {
-      "timestamp": "2026-01-22T08:20:14.647315+00:00",
-      "score": 8.1
+      "timestamp": "2026-01-22T07:43:19.781826+00:00",
+      "score": 9.2
     },
     {
-      "timestamp": "2026-01-22T11:15:27.219789+00:00",
-      "score": 8.5
+      "timestamp": "2026-01-22T09:27:49.874979+00:00",
+      "score": 9.7
     },
     {
-      "timestamp": "2026-01-22T14:10:39.792263+00:00",
-      "score": 9.0
+      "timestamp": "2026-01-22T11:12:19.968132+00:00",
+      "score": 10.2
     },
     {
-      "timestamp": "2026-01-22T17:05:52.364737+00:00",
-      "score": 9.4
+      "timestamp": "2026-01-22T12:56:50.061285+00:00",
+      "score": 10.7
     },
     {
-      "timestamp": "2026-01-22T20:01:04.937211+00:00",
-      "score": 9.8
+      "timestamp": "2026-01-22T14:41:20.154438+00:00",
+      "score": 11.2
     }
   ]
 }
