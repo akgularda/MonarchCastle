@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-01-22T18:48:55.579203+00:00",
+  "fetched_at": "2026-01-22T19:32:29.189416+00:00",
   "window_hours": 72,
-  "score": 9.2,
+  "score": 13.9,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 13.4,
-    "civilian_risk": 12.4
+    "conflict_intensity": 23.0,
+    "civilian_risk": 12.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 2,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 88
+      "items": 90
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-22T18:48:55.579203+00:00",
+      "published_at": "2026-01-22T19:32:29.189416+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -109,39 +109,52 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 0.88,
+      "score": 0.87,
       "tags": [
         "civilian_risk"
       ],
       "regions": [
         "niger"
       ]
+    },
+    {
+      "title": "The Rupture in the Gulf, and Its Fallout",
+      "link": "https://www.crisisgroup.org/pod/africa/horn-africa/rupture-gulf-and-its-fallout",
+      "source": "Crisis Group",
+      "published_at": "2026-01-22T16:05:46+00:00",
+      "score": 0.8,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "mali"
+      ]
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T19:59:06.147097+00:00",
-      "score": 12.1
+      "timestamp": "2026-01-22T20:16:02.799629+00:00",
+      "score": 12.4
     },
     {
-      "timestamp": "2026-01-22T21:09:16.714991+00:00",
-      "score": 12.5
+      "timestamp": "2026-01-22T20:59:36.409842+00:00",
+      "score": 12.7
     },
     {
-      "timestamp": "2026-01-22T22:19:27.282885+00:00",
-      "score": 12.8
+      "timestamp": "2026-01-22T21:43:10.020055+00:00",
+      "score": 13.1
     },
     {
-      "timestamp": "2026-01-22T23:29:37.850779+00:00",
-      "score": 13.2
+      "timestamp": "2026-01-22T22:26:43.630268+00:00",
+      "score": 13.4
     },
     {
-      "timestamp": "2026-01-23T00:39:48.418673+00:00",
-      "score": 13.5
+      "timestamp": "2026-01-22T23:10:17.240481+00:00",
+      "score": 13.7
     },
     {
-      "timestamp": "2026-01-23T01:49:58.986567+00:00",
-      "score": 13.9
+      "timestamp": "2026-01-22T23:53:50.850694+00:00",
+      "score": 14.0
     }
   ]
 }
