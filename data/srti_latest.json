@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-21T23:34:36.929893+00:00",
+  "fetched_at": "2026-01-22T02:29:49.502367+00:00",
   "window_hours": 72,
-  "score": 10.1,
+  "score": 10.0,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 13.4,
-    "civilian_risk": 17.1
+    "civilian_risk": 16.4
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -98,7 +98,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 1.22,
+      "score": 1.17,
       "tags": [
         "civilian_risk"
       ],
@@ -110,7 +110,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-21T23:34:36.929893+00:00",
+      "published_at": "2026-01-22T02:29:49.502367+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -120,28 +120,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T00:33:25.934766+00:00",
-      "score": 6.5
+      "timestamp": "2026-01-22T05:25:02.074841+00:00",
+      "score": 7.7
     },
     {
-      "timestamp": "2026-01-22T01:32:14.939639+00:00",
-      "score": 6.8
+      "timestamp": "2026-01-22T08:20:14.647315+00:00",
+      "score": 8.1
     },
     {
-      "timestamp": "2026-01-22T02:31:03.944512+00:00",
-      "score": 7.2
+      "timestamp": "2026-01-22T11:15:27.219789+00:00",
+      "score": 8.5
     },
     {
-      "timestamp": "2026-01-22T03:29:52.949385+00:00",
-      "score": 7.6
+      "timestamp": "2026-01-22T14:10:39.792263+00:00",
+      "score": 9.0
     },
     {
-      "timestamp": "2026-01-22T04:28:41.954258+00:00",
-      "score": 8.0
+      "timestamp": "2026-01-22T17:05:52.364737+00:00",
+      "score": 9.4
     },
     {
-      "timestamp": "2026-01-22T05:27:30.959131+00:00",
-      "score": 8.3
+      "timestamp": "2026-01-22T20:01:04.937211+00:00",
+      "score": 9.8
     }
   ]
 }
