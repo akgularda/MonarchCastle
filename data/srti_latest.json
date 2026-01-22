@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-22T19:32:29.189416+00:00",
+  "fetched_at": "2026-01-22T20:38:04.631107+00:00",
   "window_hours": 72,
-  "score": 13.9,
+  "score": 13.8,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 23.0,
-    "civilian_risk": 12.2
+    "conflict_intensity": 22.9,
+    "civilian_risk": 11.9
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 90
+      "items": 88
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-22T19:32:29.189416+00:00",
+      "published_at": "2026-01-22T20:38:04.631107+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -109,7 +109,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 0.87,
+      "score": 0.85,
       "tags": [
         "civilian_risk"
       ],
@@ -122,7 +122,7 @@
       "link": "https://www.crisisgroup.org/pod/africa/horn-africa/rupture-gulf-and-its-fallout",
       "source": "Crisis Group",
       "published_at": "2026-01-22T16:05:46+00:00",
-      "score": 0.8,
+      "score": 0.79,
       "tags": [
         "conflict_intensity"
       ],
@@ -133,27 +133,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T20:16:02.799629+00:00",
-      "score": 12.4
+      "timestamp": "2026-01-22T21:43:40.072798+00:00",
+      "score": 12.5
     },
     {
-      "timestamp": "2026-01-22T20:59:36.409842+00:00",
-      "score": 12.7
+      "timestamp": "2026-01-22T22:49:15.514489+00:00",
+      "score": 12.8
     },
     {
-      "timestamp": "2026-01-22T21:43:10.020055+00:00",
+      "timestamp": "2026-01-22T23:54:50.956180+00:00",
       "score": 13.1
     },
     {
-      "timestamp": "2026-01-22T22:26:43.630268+00:00",
+      "timestamp": "2026-01-23T01:00:26.397871+00:00",
       "score": 13.4
     },
     {
-      "timestamp": "2026-01-22T23:10:17.240481+00:00",
+      "timestamp": "2026-01-23T02:06:01.839562+00:00",
       "score": 13.7
     },
     {
-      "timestamp": "2026-01-22T23:53:50.850694+00:00",
+      "timestamp": "2026-01-23T03:11:37.281253+00:00",
       "score": 14.0
     }
   ]
