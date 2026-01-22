@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-22T11:31:10.647952+00:00",
+  "fetched_at": "2026-01-22T13:09:55.268996+00:00",
   "window_hours": 72,
-  "score": 9.5,
+  "score": 9.4,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 13.4,
-    "civilian_risk": 14.2
+    "civilian_risk": 13.7
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 79
+      "items": 80
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-22T11:31:10.647952+00:00",
+      "published_at": "2026-01-22T13:09:55.268996+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -109,7 +109,7 @@
       "link": "https://www.france24.com/en/us-visa-freeze-begins-for-26-african-countries",
       "source": "France 24 - Africa",
       "published_at": "2026-01-21T21:16:54+00:00",
-      "score": 1.01,
+      "score": 0.98,
       "tags": [
         "civilian_risk"
       ],
@@ -120,28 +120,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-22T12:22:55.062985+00:00",
-      "score": 12.9
+      "timestamp": "2026-01-22T14:48:39.890040+00:00",
+      "score": 13.1
     },
     {
-      "timestamp": "2026-01-22T13:14:39.478018+00:00",
-      "score": 13.5
+      "timestamp": "2026-01-22T16:27:24.511084+00:00",
+      "score": 13.6
     },
     {
-      "timestamp": "2026-01-22T14:06:23.893051+00:00",
-      "score": 14.1
+      "timestamp": "2026-01-22T18:06:09.132128+00:00",
+      "score": 14.2
     },
     {
-      "timestamp": "2026-01-22T14:58:08.308084+00:00",
-      "score": 14.7
+      "timestamp": "2026-01-22T19:44:53.753172+00:00",
+      "score": 14.8
     },
     {
-      "timestamp": "2026-01-22T15:49:52.723117+00:00",
-      "score": 15.3
+      "timestamp": "2026-01-22T21:23:38.374216+00:00",
+      "score": 15.4
     },
     {
-      "timestamp": "2026-01-22T16:41:37.138150+00:00",
-      "score": 15.9
+      "timestamp": "2026-01-22T23:02:22.995260+00:00",
+      "score": 16.0
     }
   ]
 }
