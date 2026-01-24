@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-24T15:29:24.221371+00:00",
+  "fetched_at": "2026-01-24T16:35:20.226983+00:00",
   "window_hours": 72,
-  "score": 37.0,
+  "score": 36.7,
   "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 44.5,
-    "civilian_risk": 74.0
+    "conflict_intensity": 44.0,
+    "civilian_risk": 73.7
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 81
+      "items": 73
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-24T15:29:24.221371+00:00",
+      "published_at": "2026-01-24T16:35:20.226983+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-24T15:29:24.221371+00:00",
+      "published_at": "2026-01-24T16:35:20.226983+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-24T15:29:24.221371+00:00",
+      "published_at": "2026-01-24T16:35:20.226983+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-24T15:29:24.221371+00:00",
+      "published_at": "2026-01-24T16:35:20.226983+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -146,7 +146,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-24T15:29:24.221371+00:00",
+      "published_at": "2026-01-24T16:35:20.226983+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -158,7 +158,7 @@
       "link": "https://www.france24.com/en/half-of-all-sudanese-children-not-in-education-due-to-civil-war",
       "source": "France 24 - Africa",
       "published_at": "2026-01-22T21:20:21+00:00",
-      "score": 0.93,
+      "score": 0.89,
       "tags": [
         "conflict_intensity",
         "civilian_risk"
@@ -172,7 +172,7 @@
       "link": "https://www.bbc.com/news/articles/cn422q1py95o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-23T00:20:27+00:00",
-      "score": 0.77,
+      "score": 0.74,
       "tags": [
         "conflict_intensity"
       ],
@@ -196,28 +196,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-24T16:29:57.117950+00:00",
-      "score": 41.7
+      "timestamp": "2026-01-24T17:41:16.232595+00:00",
+      "score": 40.6
     },
     {
-      "timestamp": "2026-01-24T17:30:30.014529+00:00",
-      "score": 42.0
+      "timestamp": "2026-01-24T18:47:12.238207+00:00",
+      "score": 40.8
     },
     {
-      "timestamp": "2026-01-24T18:31:02.911108+00:00",
-      "score": 42.4
+      "timestamp": "2026-01-24T19:53:08.243819+00:00",
+      "score": 41.1
     },
     {
-      "timestamp": "2026-01-24T19:31:35.807687+00:00",
-      "score": 42.7
+      "timestamp": "2026-01-24T20:59:04.249431+00:00",
+      "score": 41.3
     },
     {
-      "timestamp": "2026-01-24T20:32:08.704266+00:00",
-      "score": 43.1
+      "timestamp": "2026-01-24T22:05:00.255043+00:00",
+      "score": 41.6
     },
     {
-      "timestamp": "2026-01-24T21:32:41.600845+00:00",
-      "score": 43.4
+      "timestamp": "2026-01-24T23:10:56.260655+00:00",
+      "score": 41.8
     }
   ]
 }
