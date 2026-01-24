@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-24T06:44:03.392297+00:00",
+  "fetched_at": "2026-01-24T07:28:21.531378+00:00",
   "window_hours": 72,
-  "score": 40.0,
-  "risk_level": "ELEVATED",
+  "score": 39.7,
+  "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 49.5,
-    "civilian_risk": 76.1
+    "conflict_intensity": 49.1,
+    "civilian_risk": 75.9
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-24T06:44:03.392297+00:00",
+      "published_at": "2026-01-24T07:28:21.531378+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-24T06:44:03.392297+00:00",
+      "published_at": "2026-01-24T07:28:21.531378+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-24T06:44:03.392297+00:00",
+      "published_at": "2026-01-24T07:28:21.531378+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -134,7 +134,7 @@
       "link": "https://www.france24.com/en/half-of-all-sudanese-children-not-in-education-due-to-civil-war",
       "source": "France 24 - Africa",
       "published_at": "2026-01-22T21:20:21+00:00",
-      "score": 1.2,
+      "score": 1.18,
       "tags": [
         "conflict_intensity",
         "civilian_risk"
@@ -147,7 +147,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-24T06:44:03.392297+00:00",
+      "published_at": "2026-01-24T07:28:21.531378+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -160,7 +160,7 @@
       "title": "Bobo-Dioulasso : Un incendie ma\u00eetris\u00e9 gr\u00e2ce \u00e0 la promptitude des sapeurs-pompiers",
       "link": "https://lefaso.net/spip.php?article143905",
       "source": "LeFaso",
-      "published_at": "2026-01-24T06:44:03.392297+00:00",
+      "published_at": "2026-01-24T07:28:21.531378+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -172,7 +172,7 @@
       "link": "https://www.bbc.com/news/articles/cn422q1py95o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Africa",
       "published_at": "2026-01-23T00:20:27+00:00",
-      "score": 0.97,
+      "score": 0.95,
       "tags": [
         "conflict_intensity"
       ],
@@ -196,28 +196,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-24T07:56:38.792011+00:00",
-      "score": 42.3
+      "timestamp": "2026-01-24T08:12:39.670459+00:00",
+      "score": 43.0
     },
     {
-      "timestamp": "2026-01-24T09:09:14.191725+00:00",
-      "score": 42.9
+      "timestamp": "2026-01-24T08:56:57.809540+00:00",
+      "score": 43.7
     },
     {
-      "timestamp": "2026-01-24T10:21:49.591439+00:00",
-      "score": 43.6
+      "timestamp": "2026-01-24T09:41:15.948621+00:00",
+      "score": 44.4
     },
     {
-      "timestamp": "2026-01-24T11:34:24.991153+00:00",
-      "score": 44.3
+      "timestamp": "2026-01-24T10:25:34.087702+00:00",
+      "score": 45.1
     },
     {
-      "timestamp": "2026-01-24T12:47:00.390867+00:00",
-      "score": 45.0
+      "timestamp": "2026-01-24T11:09:52.226783+00:00",
+      "score": 45.8
     },
     {
-      "timestamp": "2026-01-24T13:59:35.790581+00:00",
-      "score": 45.7
+      "timestamp": "2026-01-24T11:54:10.365864+00:00",
+      "score": 46.5
     }
   ]
 }
