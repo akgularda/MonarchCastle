@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-01-25T20:33:39.926192+00:00",
+  "fetched_at": "2026-01-25T21:27:53.181789+00:00",
   "window_hours": 72,
-  "score": 25.6,
+  "score": 22.4,
   "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 24.6,
-    "civilian_risk": 66.7
+    "conflict_intensity": 20.5,
+    "civilian_risk": 60.5
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 6,
+  "items_count": 5,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 57
+      "items": 59
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-25T20:33:39.926192+00:00",
+      "published_at": "2026-01-25T21:27:53.181789+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-25T20:33:39.926192+00:00",
+      "published_at": "2026-01-25T21:27:53.181789+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-25T20:33:39.926192+00:00",
+      "published_at": "2026-01-25T21:27:53.181789+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,27 +133,13 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-25T20:33:39.926192+00:00",
+      "published_at": "2026-01-25T21:27:53.181789+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
       ],
       "regions": [
         "ouagadougou"
-      ]
-    },
-    {
-      "title": "Half of all Sudanese children not in education due to civil war",
-      "link": "https://www.france24.com/en/half-of-all-sudanese-children-not-in-education-due-to-civil-war",
-      "source": "France 24 - Africa",
-      "published_at": "2026-01-22T21:20:21+00:00",
-      "score": 0.78,
-      "tags": [
-        "conflict_intensity",
-        "civilian_risk"
-      ],
-      "regions": [
-        "niger"
       ]
     },
     {
@@ -172,27 +158,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-25T21:42:25.041921+00:00",
-      "score": 24.2
+      "timestamp": "2026-01-25T22:22:06.437386+00:00",
+      "score": 24.1
     },
     {
-      "timestamp": "2026-01-25T22:51:10.157650+00:00",
-      "score": 23.9
+      "timestamp": "2026-01-25T23:16:19.692983+00:00",
+      "score": 23.8
     },
     {
-      "timestamp": "2026-01-25T23:59:55.273379+00:00",
-      "score": 23.6
+      "timestamp": "2026-01-26T00:10:32.948580+00:00",
+      "score": 23.5
     },
     {
-      "timestamp": "2026-01-26T01:08:40.389108+00:00",
+      "timestamp": "2026-01-26T01:04:46.204177+00:00",
       "score": 23.3
     },
     {
-      "timestamp": "2026-01-26T02:17:25.504837+00:00",
+      "timestamp": "2026-01-26T01:58:59.459774+00:00",
       "score": 23.0
     },
     {
-      "timestamp": "2026-01-26T03:26:10.620566+00:00",
+      "timestamp": "2026-01-26T02:53:12.715371+00:00",
       "score": 22.7
     }
   ]
