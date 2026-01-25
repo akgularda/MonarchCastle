@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-25T19:24:54.810463+00:00",
+  "fetched_at": "2026-01-25T20:33:39.926192+00:00",
   "window_hours": 72,
   "score": 25.6,
   "risk_level": "GUARDED",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 54
+      "items": 57
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-25T19:24:54.810463+00:00",
+      "published_at": "2026-01-25T20:33:39.926192+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-25T19:24:54.810463+00:00",
+      "published_at": "2026-01-25T20:33:39.926192+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-25T19:24:54.810463+00:00",
+      "published_at": "2026-01-25T20:33:39.926192+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-25T19:24:54.810463+00:00",
+      "published_at": "2026-01-25T20:33:39.926192+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -172,28 +172,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-25T20:08:36.171660+00:00",
-      "score": 24.0
+      "timestamp": "2026-01-25T21:42:25.041921+00:00",
+      "score": 24.2
     },
     {
-      "timestamp": "2026-01-25T20:52:17.532857+00:00",
+      "timestamp": "2026-01-25T22:51:10.157650+00:00",
+      "score": 23.9
+    },
+    {
+      "timestamp": "2026-01-25T23:59:55.273379+00:00",
       "score": 23.6
     },
     {
-      "timestamp": "2026-01-25T21:35:58.894054+00:00",
+      "timestamp": "2026-01-26T01:08:40.389108+00:00",
       "score": 23.3
     },
     {
-      "timestamp": "2026-01-25T22:19:40.255251+00:00",
-      "score": 22.9
+      "timestamp": "2026-01-26T02:17:25.504837+00:00",
+      "score": 23.0
     },
     {
-      "timestamp": "2026-01-25T23:03:21.616448+00:00",
-      "score": 22.5
-    },
-    {
-      "timestamp": "2026-01-25T23:47:02.977645+00:00",
-      "score": 22.2
+      "timestamp": "2026-01-26T03:26:10.620566+00:00",
+      "score": 22.7
     }
   ]
 }
