@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-25T21:27:53.181789+00:00",
+  "fetched_at": "2026-01-25T22:30:16.850060+00:00",
   "window_hours": 72,
   "score": 22.4,
   "risk_level": "GUARDED",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 59
+      "items": 52
     },
     {
       "name": "ActuNiger",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 31
+      "items": 32
     },
     {
       "name": "UN News Africa",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-25T21:27:53.181789+00:00",
+      "published_at": "2026-01-25T22:30:16.850060+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-25T21:27:53.181789+00:00",
+      "published_at": "2026-01-25T22:30:16.850060+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-25T21:27:53.181789+00:00",
+      "published_at": "2026-01-25T22:30:16.850060+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-25T21:27:53.181789+00:00",
+      "published_at": "2026-01-25T22:30:16.850060+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -158,28 +158,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-25T22:22:06.437386+00:00",
-      "score": 24.1
+      "timestamp": "2026-01-25T23:32:40.518331+00:00",
+      "score": 24.0
     },
     {
-      "timestamp": "2026-01-25T23:16:19.692983+00:00",
+      "timestamp": "2026-01-26T00:35:04.186602+00:00",
       "score": 23.8
     },
     {
-      "timestamp": "2026-01-26T00:10:32.948580+00:00",
-      "score": 23.5
+      "timestamp": "2026-01-26T01:37:27.854873+00:00",
+      "score": 23.6
     },
     {
-      "timestamp": "2026-01-26T01:04:46.204177+00:00",
-      "score": 23.3
+      "timestamp": "2026-01-26T02:39:51.523144+00:00",
+      "score": 23.4
     },
     {
-      "timestamp": "2026-01-26T01:58:59.459774+00:00",
-      "score": 23.0
+      "timestamp": "2026-01-26T03:42:15.191415+00:00",
+      "score": 23.1
     },
     {
-      "timestamp": "2026-01-26T02:53:12.715371+00:00",
-      "score": 22.7
+      "timestamp": "2026-01-26T04:44:38.859686+00:00",
+      "score": 22.9
     }
   ]
 }
