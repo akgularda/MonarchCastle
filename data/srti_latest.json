@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-01-25T14:29:05.995227+00:00",
+  "fetched_at": "2026-01-25T15:29:37.189701+00:00",
   "window_hours": 72,
   "score": 27.4,
   "risk_level": "GUARDED",
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 63
+      "items": 64
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-25T14:29:05.995227+00:00",
+      "published_at": "2026-01-25T15:29:37.189701+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-25T14:29:05.995227+00:00",
+      "published_at": "2026-01-25T15:29:37.189701+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-25T14:29:05.995227+00:00",
+      "published_at": "2026-01-25T15:29:37.189701+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-25T14:29:05.995227+00:00",
+      "published_at": "2026-01-25T15:29:37.189701+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -185,28 +185,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-25T15:20:12.552536+00:00",
-      "score": 23.8
+      "timestamp": "2026-01-25T16:30:08.384175+00:00",
+      "score": 23.9
     },
     {
-      "timestamp": "2026-01-25T16:11:19.109845+00:00",
-      "score": 23.2
+      "timestamp": "2026-01-25T17:30:39.578649+00:00",
+      "score": 23.3
     },
     {
-      "timestamp": "2026-01-25T17:02:25.667154+00:00",
-      "score": 22.7
+      "timestamp": "2026-01-25T18:31:10.773123+00:00",
+      "score": 22.8
     },
     {
-      "timestamp": "2026-01-25T17:53:32.224463+00:00",
-      "score": 22.1
+      "timestamp": "2026-01-25T19:31:41.967597+00:00",
+      "score": 22.3
     },
     {
-      "timestamp": "2026-01-25T18:44:38.781772+00:00",
-      "score": 21.5
+      "timestamp": "2026-01-25T20:32:13.162071+00:00",
+      "score": 21.8
     },
     {
-      "timestamp": "2026-01-25T19:35:45.339081+00:00",
-      "score": 21.0
+      "timestamp": "2026-01-25T21:32:44.356545+00:00",
+      "score": 21.3
     }
   ]
 }
