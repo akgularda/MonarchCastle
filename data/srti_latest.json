@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-26T18:50:51.067142+00:00",
+  "fetched_at": "2026-01-26T19:31:30.869746+00:00",
   "window_hours": 72,
   "score": 17.0,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.8,
+    "conflict_intensity": 9.7,
     "civilian_risk": 60.5
   },
   "weights": {
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-26T18:50:51.067142+00:00",
+      "published_at": "2026-01-26T19:31:30.869746+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-26T18:50:51.067142+00:00",
+      "published_at": "2026-01-26T19:31:30.869746+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-26T18:50:51.067142+00:00",
+      "published_at": "2026-01-26T19:31:30.869746+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -134,7 +134,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.82,
+      "score": 0.81,
       "tags": [
         "conflict_intensity"
       ],
@@ -148,28 +148,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T20:03:01.990218+00:00",
-      "score": 21.0
+      "timestamp": "2026-01-26T20:12:10.672350+00:00",
+      "score": 20.3
     },
     {
-      "timestamp": "2026-01-26T21:15:12.913294+00:00",
-      "score": 20.8
-    },
-    {
-      "timestamp": "2026-01-26T22:27:23.836370+00:00",
-      "score": 20.6
-    },
-    {
-      "timestamp": "2026-01-26T23:39:34.759446+00:00",
-      "score": 20.4
-    },
-    {
-      "timestamp": "2026-01-27T00:51:45.682522+00:00",
-      "score": 20.2
-    },
-    {
-      "timestamp": "2026-01-27T02:03:56.605598+00:00",
+      "timestamp": "2026-01-26T20:52:50.474954+00:00",
       "score": 20.1
+    },
+    {
+      "timestamp": "2026-01-26T21:33:30.277558+00:00",
+      "score": 19.9
+    },
+    {
+      "timestamp": "2026-01-26T22:14:10.080162+00:00",
+      "score": 19.7
+    },
+    {
+      "timestamp": "2026-01-26T22:54:49.882766+00:00",
+      "score": 19.5
+    },
+    {
+      "timestamp": "2026-01-26T23:35:29.685370+00:00",
+      "score": 19.3
     }
   ]
 }
