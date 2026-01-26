@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-01-25T23:28:49.035954+00:00",
+  "fetched_at": "2026-01-26T02:36:32.885510+00:00",
   "window_hours": 72,
-  "score": 22.4,
-  "risk_level": "GUARDED",
+  "score": 18.8,
+  "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 20.5,
+    "conflict_intensity": 13.4,
     "civilian_risk": 60.5
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 5,
+  "items_count": 4,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
@@ -77,7 +77,7 @@
       "name": "AllAfrica - Mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "items": 21
+      "items": 20
     },
     {
       "name": "AllAfrica - Niger",
@@ -89,7 +89,7 @@
       "name": "AllAfrica - Burkina Faso",
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
-      "items": 13
+      "items": 11
     }
   ],
   "top_headlines": [
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-25T23:28:49.035954+00:00",
+      "published_at": "2026-01-26T02:36:32.885510+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-25T23:28:49.035954+00:00",
+      "published_at": "2026-01-26T02:36:32.885510+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-25T23:28:49.035954+00:00",
+      "published_at": "2026-01-26T02:36:32.885510+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-25T23:28:49.035954+00:00",
+      "published_at": "2026-01-26T02:36:32.885510+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -141,45 +141,32 @@
       "regions": [
         "ouagadougou"
       ]
-    },
-    {
-      "title": "'Blood was all over' - victim of Nigeria church abduction describes escape",
-      "link": "https://www.bbc.com/news/articles/cn422q1py95o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Africa",
-      "published_at": "2026-01-23T00:20:27+00:00",
-      "score": 0.59,
-      "tags": [
-        "conflict_intensity"
-      ],
-      "regions": [
-        "niger"
-      ]
     }
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T00:27:21.221848+00:00",
-      "score": 24.1
+      "timestamp": "2026-01-26T05:44:16.735066+00:00",
+      "score": 23.0
     },
     {
-      "timestamp": "2026-01-26T01:25:53.407742+00:00",
-      "score": 23.9
+      "timestamp": "2026-01-26T08:52:00.584622+00:00",
+      "score": 22.7
     },
     {
-      "timestamp": "2026-01-26T02:24:25.593636+00:00",
-      "score": 23.8
+      "timestamp": "2026-01-26T11:59:44.434178+00:00",
+      "score": 22.5
     },
     {
-      "timestamp": "2026-01-26T03:22:57.779530+00:00",
-      "score": 23.6
+      "timestamp": "2026-01-26T15:07:28.283734+00:00",
+      "score": 22.3
     },
     {
-      "timestamp": "2026-01-26T04:21:29.965424+00:00",
-      "score": 23.4
+      "timestamp": "2026-01-26T18:15:12.133290+00:00",
+      "score": 22.0
     },
     {
-      "timestamp": "2026-01-26T05:20:02.151318+00:00",
-      "score": 23.2
+      "timestamp": "2026-01-26T21:22:55.982846+00:00",
+      "score": 21.8
     }
   ]
 }
