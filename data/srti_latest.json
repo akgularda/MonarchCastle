@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-26T20:37:49.438264+00:00",
+  "fetched_at": "2026-01-26T21:33:26.619924+00:00",
   "window_hours": 72,
-  "score": 16.9,
+  "score": 8.7,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.5,
-    "civilian_risk": 60.5
+    "conflict_intensity": 9.4,
+    "civilian_risk": 20.2
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 4,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 50
+      "items": 51
     },
     {
       "name": "ActuNiger",
@@ -97,32 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-26T20:37:49.438264+00:00",
-      "score": 1.44,
-      "tags": [
-        "civilian_risk"
-      ],
-      "regions": []
-    },
-    {
-      "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
-      "link": "https://lefaso.net/spip.php?article143953",
-      "source": "LeFaso",
-      "published_at": "2026-01-26T20:37:49.438264+00:00",
-      "score": 1.44,
-      "tags": [
-        "civilian_risk"
-      ],
-      "regions": [
-        "burkina",
-        "burkina faso"
-      ]
-    },
-    {
-      "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
-      "link": "https://lefaso.net/spip.php?article143960",
-      "source": "LeFaso",
-      "published_at": "2026-01-26T20:37:49.438264+00:00",
+      "published_at": "2026-01-26T21:33:26.619924+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -134,7 +109,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.79,
+      "score": 0.78,
       "tags": [
         "conflict_intensity"
       ],
@@ -148,28 +123,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T21:44:08.006782+00:00",
-      "score": 19.6
+      "timestamp": "2026-01-26T22:29:03.801584+00:00",
+      "score": 17.6
     },
     {
-      "timestamp": "2026-01-26T22:50:26.575300+00:00",
-      "score": 19.4
+      "timestamp": "2026-01-26T23:24:40.983244+00:00",
+      "score": 17.3
     },
     {
-      "timestamp": "2026-01-26T23:56:45.143818+00:00",
-      "score": 19.2
+      "timestamp": "2026-01-27T00:20:18.164904+00:00",
+      "score": 17.0
     },
     {
-      "timestamp": "2026-01-27T01:03:03.712336+00:00",
-      "score": 18.9
+      "timestamp": "2026-01-27T01:15:55.346564+00:00",
+      "score": 16.7
     },
     {
-      "timestamp": "2026-01-27T02:09:22.280854+00:00",
-      "score": 18.7
+      "timestamp": "2026-01-27T02:11:32.528224+00:00",
+      "score": 16.3
     },
     {
-      "timestamp": "2026-01-27T03:15:40.849372+00:00",
-      "score": 18.5
+      "timestamp": "2026-01-27T03:07:09.709884+00:00",
+      "score": 16.0
     }
   ]
 }
