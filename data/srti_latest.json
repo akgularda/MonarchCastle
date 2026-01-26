@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-26T22:33:13.505105+00:00",
+  "fetched_at": "2026-01-26T23:32:02.907430+00:00",
   "window_hours": 72,
-  "score": 8.6,
+  "score": 8.5,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.2,
+    "conflict_intensity": 9.0,
     "civilian_risk": 20.2
   },
   "weights": {
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-26T22:33:13.505105+00:00",
+      "published_at": "2026-01-26T23:32:02.907430+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -109,7 +109,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.77,
+      "score": 0.75,
       "tags": [
         "conflict_intensity"
       ],
@@ -123,28 +123,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T23:33:00.390286+00:00",
-      "score": 15.8
-    },
-    {
-      "timestamp": "2026-01-27T00:32:47.275467+00:00",
-      "score": 15.4
-    },
-    {
-      "timestamp": "2026-01-27T01:32:34.160648+00:00",
-      "score": 15.0
-    },
-    {
-      "timestamp": "2026-01-27T02:32:21.045829+00:00",
-      "score": 14.6
-    },
-    {
-      "timestamp": "2026-01-27T03:32:07.931010+00:00",
+      "timestamp": "2026-01-27T00:30:52.309755+00:00",
       "score": 14.2
     },
     {
-      "timestamp": "2026-01-27T04:31:54.816191+00:00",
-      "score": 13.8
+      "timestamp": "2026-01-27T01:29:41.712080+00:00",
+      "score": 13.7
+    },
+    {
+      "timestamp": "2026-01-27T02:28:31.114405+00:00",
+      "score": 13.2
+    },
+    {
+      "timestamp": "2026-01-27T03:27:20.516730+00:00",
+      "score": 12.7
+    },
+    {
+      "timestamp": "2026-01-27T04:26:09.919055+00:00",
+      "score": 12.2
+    },
+    {
+      "timestamp": "2026-01-27T05:24:59.321380+00:00",
+      "score": 11.7
     }
   ]
 }
