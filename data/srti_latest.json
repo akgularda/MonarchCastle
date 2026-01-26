@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-26T13:07:33.131324+00:00",
+  "fetched_at": "2026-01-26T14:39:07.396054+00:00",
   "window_hours": 72,
-  "score": 24.2,
+  "score": 24.1,
   "risk_level": "GUARDED",
   "components": {
-    "conflict_intensity": 24.2,
+    "conflict_intensity": 23.9,
     "civilian_risk": 60.5
   },
   "weights": {
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 48
+      "items": 51
     },
     {
       "name": "ActuNiger",
@@ -97,7 +97,7 @@
       "title": "Gendarmerie nationale : Le lieutenant-colonel \u00c9mile Soudr\u00e9 prend le commandement des \u00e9coles et centres de perfectionnement",
       "link": "https://lefaso.net/spip.php?article143951",
       "source": "LeFaso",
-      "published_at": "2026-01-26T13:07:33.131324+00:00",
+      "published_at": "2026-01-26T14:39:07.396054+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -108,7 +108,7 @@
       "title": "Campagne : \u00ab Ma Premi\u00e8re \u00c9cole : l'\u00e9ducation commence \u00e0 la maison, la protection commence dans la famille \u00bb",
       "link": "https://lefaso.net/spip.php?article143953",
       "source": "LeFaso",
-      "published_at": "2026-01-26T13:07:33.131324+00:00",
+      "published_at": "2026-01-26T14:39:07.396054+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -122,7 +122,7 @@
       "title": "Cyberattaque sur Facebook : Des hackers cherchent \u00e0 pirater les comptes",
       "link": "https://lefaso.net/spip.php?article143960",
       "source": "LeFaso",
-      "published_at": "2026-01-26T13:07:33.131324+00:00",
+      "published_at": "2026-01-26T14:39:07.396054+00:00",
       "score": 1.44,
       "tags": [
         "civilian_risk"
@@ -133,7 +133,7 @@
       "title": "Lutte contre la criminalit\u00e9 financi\u00e8re : Plus de 700 bidons de 20 litres d'huile alimentaire impropre \u00e0 la consommation saisis",
       "link": "https://lefaso.net/spip.php?article143954",
       "source": "LeFaso",
-      "published_at": "2026-01-26T13:07:33.131324+00:00",
+      "published_at": "2026-01-26T14:39:07.396054+00:00",
       "score": 1.12,
       "tags": [
         "conflict_intensity"
@@ -147,7 +147,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.89,
+      "score": 0.87,
       "tags": [
         "conflict_intensity"
       ],
@@ -161,28 +161,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-26T14:45:27.511256+00:00",
-      "score": 21.8
+      "timestamp": "2026-01-26T16:10:41.660784+00:00",
+      "score": 22.1
     },
     {
-      "timestamp": "2026-01-26T16:23:21.891188+00:00",
-      "score": 21.6
+      "timestamp": "2026-01-26T17:42:15.925514+00:00",
+      "score": 21.9
     },
     {
-      "timestamp": "2026-01-26T18:01:16.271120+00:00",
-      "score": 21.4
+      "timestamp": "2026-01-26T19:13:50.190244+00:00",
+      "score": 21.7
     },
     {
-      "timestamp": "2026-01-26T19:39:10.651052+00:00",
-      "score": 21.2
+      "timestamp": "2026-01-26T20:45:24.454974+00:00",
+      "score": 21.5
     },
     {
-      "timestamp": "2026-01-26T21:17:05.030984+00:00",
-      "score": 21.0
+      "timestamp": "2026-01-26T22:16:58.719704+00:00",
+      "score": 21.3
     },
     {
-      "timestamp": "2026-01-26T22:54:59.410916+00:00",
-      "score": 20.8
+      "timestamp": "2026-01-26T23:48:32.984434+00:00",
+      "score": 21.1
     }
   ]
 }
