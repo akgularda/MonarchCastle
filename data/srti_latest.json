@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-01-27T02:31:47.892668+00:00",
+  "fetched_at": "2026-01-27T04:13:10.091555+00:00",
   "window_hours": 72,
   "score": 4.2,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 8.5,
+    "conflict_intensity": 8.3,
     "civilian_risk": 0.0
   },
   "weights": {
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 12
     },
     {
       "name": "MaliWeb",
@@ -98,7 +98,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.71,
+      "score": 0.69,
       "tags": [
         "conflict_intensity"
       ],
@@ -112,28 +112,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-27T05:31:32.877906+00:00",
-      "score": 12.0
+      "timestamp": "2026-01-27T05:54:32.290442+00:00",
+      "score": 9.8
     },
     {
-      "timestamp": "2026-01-27T08:31:17.863144+00:00",
-      "score": 11.4
-    },
-    {
-      "timestamp": "2026-01-27T11:31:02.848382+00:00",
-      "score": 10.8
-    },
-    {
-      "timestamp": "2026-01-27T14:30:47.833620+00:00",
-      "score": 10.2
-    },
-    {
-      "timestamp": "2026-01-27T17:30:32.818858+00:00",
-      "score": 9.6
-    },
-    {
-      "timestamp": "2026-01-27T20:30:17.804096+00:00",
+      "timestamp": "2026-01-27T07:35:54.489329+00:00",
       "score": 9.0
+    },
+    {
+      "timestamp": "2026-01-27T09:17:16.688216+00:00",
+      "score": 8.3
+    },
+    {
+      "timestamp": "2026-01-27T10:58:38.887103+00:00",
+      "score": 7.6
+    },
+    {
+      "timestamp": "2026-01-27T12:40:01.085990+00:00",
+      "score": 6.9
+    },
+    {
+      "timestamp": "2026-01-27T14:21:23.284877+00:00",
+      "score": 6.2
     }
   ]
 }
