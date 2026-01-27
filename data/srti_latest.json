@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-27T21:27:48.627759+00:00",
+  "fetched_at": "2026-01-27T22:32:03.346335+00:00",
   "window_hours": 72,
   "score": 5.0,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 5.4,
-    "civilian_risk": 11.7
+    "conflict_intensity": 5.3,
+    "civilian_risk": 11.5
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -16,20 +16,20 @@
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -53,7 +53,7 @@
       "name": "BBC Africa",
       "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
       "status": "ok",
-      "items": 32
+      "items": 30
     },
     {
       "name": "UN News Africa",
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.84,
+      "score": 0.82,
       "tags": [
         "civilian_risk"
       ],
@@ -111,7 +111,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.45,
+      "score": 0.44,
       "tags": [
         "conflict_intensity"
       ],
@@ -125,28 +125,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-27T22:21:46.224896+00:00",
-      "score": 2.9
+      "timestamp": "2026-01-27T23:36:18.064911+00:00",
+      "score": 3.3
     },
     {
-      "timestamp": "2026-01-27T23:15:43.822033+00:00",
-      "score": 2.5
+      "timestamp": "2026-01-28T00:40:32.783487+00:00",
+      "score": 3.0
     },
     {
-      "timestamp": "2026-01-28T00:09:41.419170+00:00",
+      "timestamp": "2026-01-28T01:44:47.502063+00:00",
+      "score": 2.7
+    },
+    {
+      "timestamp": "2026-01-28T02:49:02.220639+00:00",
+      "score": 2.4
+    },
+    {
+      "timestamp": "2026-01-28T03:53:16.939215+00:00",
       "score": 2.1
     },
     {
-      "timestamp": "2026-01-28T01:03:39.016307+00:00",
-      "score": 1.7
-    },
-    {
-      "timestamp": "2026-01-28T01:57:36.613444+00:00",
-      "score": 1.4
-    },
-    {
-      "timestamp": "2026-01-28T02:51:34.210581+00:00",
-      "score": 1.0
+      "timestamp": "2026-01-28T04:57:31.657791+00:00",
+      "score": 1.8
     }
   ]
 }
