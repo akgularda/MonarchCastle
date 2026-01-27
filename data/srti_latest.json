@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-27T17:37:30.808572+00:00",
+  "fetched_at": "2026-01-27T18:53:37.711591+00:00",
   "window_hours": 72,
-  "score": 5.5,
+  "score": 5.4,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 6.1,
-    "civilian_risk": 12.5
+    "conflict_intensity": 5.9,
+    "civilian_risk": 12.2
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 58
+      "items": 59
     },
     {
       "name": "ActuNiger",
@@ -64,8 +64,8 @@
     {
       "name": "Crisis Group",
       "url": "https://www.crisisgroup.org/rss.xml",
-      "status": "unreachable",
-      "items": 0
+      "status": "ok",
+      "items": 10
     },
     {
       "name": "France 24 - Africa",
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.89,
+      "score": 0.87,
       "tags": [
         "civilian_risk"
       ],
@@ -111,7 +111,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.51,
+      "score": 0.49,
       "tags": [
         "conflict_intensity"
       ],
@@ -125,27 +125,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-27T18:34:17.066896+00:00",
-      "score": 0.6
+      "timestamp": "2026-01-27T20:09:44.614610+00:00",
+      "score": 1.1
     },
     {
-      "timestamp": "2026-01-27T19:31:03.325220+00:00",
+      "timestamp": "2026-01-27T21:25:51.517629+00:00",
+      "score": 0.4
+    },
+    {
+      "timestamp": "2026-01-27T22:41:58.420648+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-27T20:27:49.583544+00:00",
+      "timestamp": "2026-01-27T23:58:05.323667+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-27T21:24:35.841868+00:00",
+      "timestamp": "2026-01-28T01:14:12.226686+00:00",
       "score": 0.0
     },
     {
-      "timestamp": "2026-01-27T22:21:22.100192+00:00",
-      "score": 0.0
-    },
-    {
-      "timestamp": "2026-01-27T23:18:08.358516+00:00",
+      "timestamp": "2026-01-28T02:30:19.129705+00:00",
       "score": 0.0
     }
   ]
