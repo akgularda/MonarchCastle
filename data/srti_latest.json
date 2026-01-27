@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-27T06:50:54.067976+00:00",
+  "fetched_at": "2026-01-27T07:36:28.631936+00:00",
   "window_hours": 72,
-  "score": 6.9,
+  "score": 6.8,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 7.8,
-    "civilian_risk": 14.8
+    "conflict_intensity": 7.7,
+    "civilian_risk": 14.6
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 1.05,
+      "score": 1.04,
       "tags": [
         "civilian_risk"
       ],
@@ -111,7 +111,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.65,
+      "score": 0.64,
       "tags": [
         "conflict_intensity"
       ],
@@ -125,28 +125,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-27T08:04:47.857264+00:00",
-      "score": 6.7
+      "timestamp": "2026-01-27T08:22:03.195896+00:00",
+      "score": 5.1
     },
     {
-      "timestamp": "2026-01-27T09:18:41.646552+00:00",
-      "score": 5.9
-    },
-    {
-      "timestamp": "2026-01-27T10:32:35.435840+00:00",
-      "score": 5.0
-    },
-    {
-      "timestamp": "2026-01-27T11:46:29.225128+00:00",
+      "timestamp": "2026-01-27T09:07:37.759856+00:00",
       "score": 4.2
     },
     {
-      "timestamp": "2026-01-27T13:00:23.014416+00:00",
-      "score": 3.4
+      "timestamp": "2026-01-27T09:53:12.323816+00:00",
+      "score": 3.3
     },
     {
-      "timestamp": "2026-01-27T14:14:16.803704+00:00",
-      "score": 2.5
+      "timestamp": "2026-01-27T10:38:46.887776+00:00",
+      "score": 2.3
+    },
+    {
+      "timestamp": "2026-01-27T11:24:21.451736+00:00",
+      "score": 1.4
+    },
+    {
+      "timestamp": "2026-01-27T12:09:56.015696+00:00",
+      "score": 0.4
     }
   ]
 }
