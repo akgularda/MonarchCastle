@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-27T04:13:10.091555+00:00",
+  "fetched_at": "2026-01-27T05:37:00.278688+00:00",
   "window_hours": 72,
-  "score": 4.2,
+  "score": 7.0,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 8.3,
-    "civilian_risk": 0.0
+    "conflict_intensity": 8.0,
+    "civilian_risk": 15.0
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 1,
+  "items_count": 2,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -83,7 +83,7 @@
       "name": "AllAfrica - Niger",
       "url": "https://allafrica.com/tools/headlines/rdf/niger/headlines.rdf",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "name": "AllAfrica - Burkina Faso",
@@ -94,11 +94,24 @@
   ],
   "top_headlines": [
     {
+      "title": "Niger Arrests Deutsche Welle Correspondent Over Report On Nigerian Refugees",
+      "link": "https://allafrica.com/stories/202601270044.html",
+      "source": "AllAfrica - Niger",
+      "published_at": "2026-01-27T05:09:32+00:00",
+      "score": 1.07,
+      "tags": [
+        "civilian_risk"
+      ],
+      "regions": [
+        "niger"
+      ]
+    },
+    {
       "title": "US to step up coordination with Nigeria to pursue Islamic State group militants",
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.69,
+      "score": 0.67,
       "tags": [
         "conflict_intensity"
       ],
@@ -112,28 +125,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-27T05:54:32.290442+00:00",
-      "score": 9.8
+      "timestamp": "2026-01-27T07:00:50.465821+00:00",
+      "score": 8.2
     },
     {
-      "timestamp": "2026-01-27T07:35:54.489329+00:00",
-      "score": 9.0
+      "timestamp": "2026-01-27T08:24:40.652954+00:00",
+      "score": 7.4
     },
     {
-      "timestamp": "2026-01-27T09:17:16.688216+00:00",
-      "score": 8.3
+      "timestamp": "2026-01-27T09:48:30.840087+00:00",
+      "score": 6.6
     },
     {
-      "timestamp": "2026-01-27T10:58:38.887103+00:00",
-      "score": 7.6
+      "timestamp": "2026-01-27T11:12:21.027220+00:00",
+      "score": 5.8
     },
     {
-      "timestamp": "2026-01-27T12:40:01.085990+00:00",
-      "score": 6.9
+      "timestamp": "2026-01-27T12:36:11.214353+00:00",
+      "score": 5.0
     },
     {
-      "timestamp": "2026-01-27T14:21:23.284877+00:00",
-      "score": 6.2
+      "timestamp": "2026-01-27T14:00:01.401486+00:00",
+      "score": 4.3
     }
   ]
 }
