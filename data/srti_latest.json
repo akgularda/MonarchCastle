@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-28T14:41:05.898139+00:00",
+  "fetched_at": "2026-01-28T15:43:19.214611+00:00",
   "window_hours": 72,
-  "score": 3.7,
+  "score": 3.6,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 4.1,
-    "civilian_risk": 8.1
+    "civilian_risk": 7.9
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.58,
+      "score": 0.56,
       "tags": [
         "civilian_risk"
       ],
@@ -125,27 +125,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-28T16:11:41.649541+00:00",
+      "timestamp": "2026-01-28T16:45:32.531083+00:00",
       "score": 3.2
     },
     {
-      "timestamp": "2026-01-28T17:42:17.400943+00:00",
+      "timestamp": "2026-01-28T17:47:45.847555+00:00",
       "score": 3.1
     },
     {
-      "timestamp": "2026-01-28T19:12:53.152345+00:00",
-      "score": 3.0
-    },
-    {
-      "timestamp": "2026-01-28T20:43:28.903747+00:00",
+      "timestamp": "2026-01-28T18:49:59.164027+00:00",
       "score": 2.9
     },
     {
-      "timestamp": "2026-01-28T22:14:04.655149+00:00",
+      "timestamp": "2026-01-28T19:52:12.480499+00:00",
+      "score": 2.8
+    },
+    {
+      "timestamp": "2026-01-28T20:54:25.796971+00:00",
       "score": 2.7
     },
     {
-      "timestamp": "2026-01-28T23:44:40.406551+00:00",
+      "timestamp": "2026-01-28T21:56:39.113443+00:00",
       "score": 2.6
     }
   ]
