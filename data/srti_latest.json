@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-28T08:46:46.112343+00:00",
+  "fetched_at": "2026-01-28T09:43:46.886114+00:00",
   "window_hours": 72,
   "score": 3.9,
   "risk_level": "LOW",
   "components": {
     "conflict_intensity": 4.1,
-    "civilian_risk": 9.3
+    "civilian_risk": 9.1
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 71
+      "items": 72
     },
     {
       "name": "ActuNiger",
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.67,
+      "score": 0.65,
       "tags": [
         "civilian_risk"
       ],
@@ -125,28 +125,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-28T09:58:09.947923+00:00",
-      "score": 3.7
+      "timestamp": "2026-01-28T10:40:47.659885+00:00",
+      "score": 3.6
     },
     {
-      "timestamp": "2026-01-28T11:09:33.783503+00:00",
-      "score": 3.5
-    },
-    {
-      "timestamp": "2026-01-28T12:20:57.619083+00:00",
+      "timestamp": "2026-01-28T11:37:48.433656+00:00",
       "score": 3.4
     },
     {
-      "timestamp": "2026-01-28T13:32:21.454663+00:00",
+      "timestamp": "2026-01-28T12:34:49.207427+00:00",
       "score": 3.3
     },
     {
-      "timestamp": "2026-01-28T14:43:45.290243+00:00",
+      "timestamp": "2026-01-28T13:31:49.981198+00:00",
       "score": 3.1
     },
     {
-      "timestamp": "2026-01-28T15:55:09.125823+00:00",
+      "timestamp": "2026-01-28T14:28:50.754969+00:00",
       "score": 3.0
+    },
+    {
+      "timestamp": "2026-01-28T15:25:51.528740+00:00",
+      "score": 2.9
     }
   ]
 }
