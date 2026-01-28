@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-28T02:28:10.917158+00:00",
+  "fetched_at": "2026-01-28T04:11:21.519520+00:00",
   "window_hours": 72,
-  "score": 4.4,
+  "score": 4.3,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 4.6,
-    "civilian_risk": 10.6
+    "conflict_intensity": 4.4,
+    "civilian_risk": 10.3
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -98,7 +98,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.76,
+      "score": 0.73,
       "tags": [
         "civilian_risk"
       ],
@@ -111,7 +111,7 @@
       "link": "https://www.france24.com/en/africa/20260126-us-steps-up-cooperation-with-nigeria-to-pursue-islamic-state-group-militants",
       "source": "France 24 - Africa",
       "published_at": "2026-01-26T06:49:27+00:00",
-      "score": 0.39,
+      "score": 0.36,
       "tags": [
         "conflict_intensity"
       ],
@@ -125,27 +125,27 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-28T05:24:33.028319+00:00",
+      "timestamp": "2026-01-28T05:54:32.121882+00:00",
       "score": 4.5
     },
     {
-      "timestamp": "2026-01-28T08:20:55.139480+00:00",
+      "timestamp": "2026-01-28T07:37:42.724244+00:00",
       "score": 4.4
     },
     {
-      "timestamp": "2026-01-28T11:17:17.250641+00:00",
+      "timestamp": "2026-01-28T09:20:53.326606+00:00",
       "score": 4.3
     },
     {
-      "timestamp": "2026-01-28T14:13:39.361802+00:00",
+      "timestamp": "2026-01-28T11:04:03.928968+00:00",
       "score": 4.1
     },
     {
-      "timestamp": "2026-01-28T17:10:01.472963+00:00",
+      "timestamp": "2026-01-28T12:47:14.531330+00:00",
       "score": 4.0
     },
     {
-      "timestamp": "2026-01-28T20:06:23.584124+00:00",
+      "timestamp": "2026-01-28T14:30:25.133692+00:00",
       "score": 3.9
     }
   ]
