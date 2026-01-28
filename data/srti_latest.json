@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-01-28T20:43:13.737856+00:00",
+  "fetched_at": "2026-01-28T21:38:54.226510+00:00",
   "window_hours": 72,
-  "score": 3.4,
+  "score": 9.2,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 4.1,
-    "civilian_risk": 6.8
+    "conflict_intensity": 15.8,
+    "civilian_risk": 6.6
   },
   "weights": {
     "conflict_intensity": 0.5,
     "civilian_risk": 0.2
   },
-  "items_count": 2,
+  "items_count": 3,
   "sources": [
     {
       "name": "ReliefWeb - Mali",
       "url": "https://reliefweb.int/rss?search=country%3AMali",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Niger",
       "url": "https://reliefweb.int/rss?search=country%3ANiger",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "ReliefWeb - Burkina Faso",
       "url": "https://reliefweb.int/rss?search=country%3ABurkina%20Faso",
-      "status": "ok",
-      "items": 12
+      "status": "unreachable",
+      "items": 0
     },
     {
       "name": "MaliWeb",
@@ -41,7 +41,7 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 92
+      "items": 88
     },
     {
       "name": "ActuNiger",
@@ -94,11 +94,24 @@
   ],
   "top_headlines": [
     {
+      "title": "Nigerian police fire tear gas, protester injured in Lagos floating slum protests",
+      "link": "https://www.france24.com/en/nigerian-police-fire-tear-gas-protester-injured-in-lagos-floating-slum-protests",
+      "source": "France 24 - Africa",
+      "published_at": "2026-01-28T21:23:49+00:00",
+      "score": 0.98,
+      "tags": [
+        "conflict_intensity"
+      ],
+      "regions": [
+        "niger"
+      ]
+    },
+    {
       "title": "Niger Arrests Deutsche Welle Correspondent Over Report On Nigerian Refugees",
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.49,
+      "score": 0.47,
       "tags": [
         "civilian_risk"
       ],
@@ -125,28 +138,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-28T21:48:21.559663+00:00",
-      "score": 3.0
+      "timestamp": "2026-01-28T22:34:34.715164+00:00",
+      "score": 4.0
     },
     {
-      "timestamp": "2026-01-28T22:53:29.381470+00:00",
-      "score": 2.9
+      "timestamp": "2026-01-28T23:30:15.203818+00:00",
+      "score": 4.0
     },
     {
-      "timestamp": "2026-01-28T23:58:37.203277+00:00",
-      "score": 2.9
+      "timestamp": "2026-01-29T00:25:55.692472+00:00",
+      "score": 3.9
     },
     {
-      "timestamp": "2026-01-29T01:03:45.025084+00:00",
-      "score": 2.8
+      "timestamp": "2026-01-29T01:21:36.181126+00:00",
+      "score": 3.9
     },
     {
-      "timestamp": "2026-01-29T02:08:52.846891+00:00",
-      "score": 2.7
+      "timestamp": "2026-01-29T02:17:16.669780+00:00",
+      "score": 3.9
     },
     {
-      "timestamp": "2026-01-29T03:14:00.668698+00:00",
-      "score": 2.6
+      "timestamp": "2026-01-29T03:12:57.158434+00:00",
+      "score": 3.8
     }
   ]
 }
