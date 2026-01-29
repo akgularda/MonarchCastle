@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-01-28T23:35:26.059426+00:00",
+  "fetched_at": "2026-01-29T02:45:29.515743+00:00",
   "window_hours": 72,
-  "score": 9.0,
+  "score": 8.6,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 15.5,
-    "civilian_risk": 6.2
+    "conflict_intensity": 15.0,
+    "civilian_risk": 5.5
   },
   "weights": {
     "conflict_intensity": 0.5,
@@ -77,7 +77,7 @@
       "name": "AllAfrica - Mali",
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
-      "items": 18
+      "items": 17
     },
     {
       "name": "AllAfrica - Niger",
@@ -98,7 +98,7 @@
       "link": "https://www.france24.com/en/nigerian-police-fire-tear-gas-protester-injured-in-lagos-floating-slum-protests",
       "source": "France 24 - Africa",
       "published_at": "2026-01-28T21:23:49+00:00",
-      "score": 0.95,
+      "score": 0.91,
       "tags": [
         "conflict_intensity"
       ],
@@ -111,7 +111,7 @@
       "link": "https://allafrica.com/stories/202601270044.html",
       "source": "AllAfrica - Niger",
       "published_at": "2026-01-27T05:09:32+00:00",
-      "score": 0.44,
+      "score": 0.4,
       "tags": [
         "civilian_risk"
       ],
@@ -138,28 +138,28 @@
   ],
   "forecast": [
     {
-      "timestamp": "2026-01-29T00:33:02.091085+00:00",
-      "score": 5.7
+      "timestamp": "2026-01-29T05:55:32.972060+00:00",
+      "score": 6.4
     },
     {
-      "timestamp": "2026-01-29T01:30:38.122744+00:00",
-      "score": 5.8
+      "timestamp": "2026-01-29T09:05:36.428377+00:00",
+      "score": 6.5
     },
     {
-      "timestamp": "2026-01-29T02:28:14.154403+00:00",
-      "score": 5.9
+      "timestamp": "2026-01-29T12:15:39.884694+00:00",
+      "score": 6.7
     },
     {
-      "timestamp": "2026-01-29T03:25:50.186062+00:00",
-      "score": 6.0
+      "timestamp": "2026-01-29T15:25:43.341011+00:00",
+      "score": 6.8
     },
     {
-      "timestamp": "2026-01-29T04:23:26.217721+00:00",
-      "score": 6.0
+      "timestamp": "2026-01-29T18:35:46.797328+00:00",
+      "score": 6.9
     },
     {
-      "timestamp": "2026-01-29T05:21:02.249380+00:00",
-      "score": 6.1
+      "timestamp": "2026-01-29T21:45:50.253645+00:00",
+      "score": 7.1
     }
   ]
 }
