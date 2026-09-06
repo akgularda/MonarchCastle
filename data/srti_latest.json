@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "methodology_version": "2.0",
-  "fetched_at": "2026-09-06T16:53:32.290644+00:00",
-  "content_latest_at": "2026-09-06T14:38:00+00:00",
+  "fetched_at": "2026-09-06T19:02:08.204589+00:00",
+  "content_latest_at": "2026-09-06T18:50:00+00:00",
   "window_hours": 72,
-  "score": 6.5,
+  "score": 6.2,
   "risk_level": "LOW",
   "components": {
-    "conflict_intensity": 9.1,
+    "conflict_intensity": 8.7,
     "civilian_risk": 0.0
   },
   "weights": {
@@ -61,8 +61,8 @@
       "name": "LeFaso",
       "url": "https://lefaso.net/spip.php?page=backend",
       "status": "ok",
-      "items": 62,
-      "eligible_items": 62,
+      "items": 64,
+      "eligible_items": 64,
       "regions": [
         "burkina_faso"
       ]
@@ -114,7 +114,7 @@
       "url": "https://allafrica.com/tools/headlines/rdf/mali/headlines.rdf",
       "status": "ok",
       "items": 17,
-      "eligible_items": 2,
+      "eligible_items": 1,
       "regions": [
         "mali"
       ]
@@ -134,7 +134,7 @@
       "url": "https://allafrica.com/tools/headlines/rdf/burkinafaso/headlines.rdf",
       "status": "ok",
       "items": 7,
-      "eligible_items": 1,
+      "eligible_items": 0,
       "regions": [
         "burkina_faso"
       ]
@@ -146,7 +146,7 @@
       "link": "https://lefaso.net/spip.php?article149045",
       "source": "LeFaso",
       "published_at": "2026-09-05T17:47:21+00:00",
-      "score": 0.76,
+      "score": 0.73,
       "tags": [
         "conflict_intensity"
       ],
